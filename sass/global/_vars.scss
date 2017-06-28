@@ -1,0 +1,67 @@
+// Solid Colors
+$white: #fff;
+$green: #00a651;
+$cyan: #00aeef;
+$violet: #2e3192;
+$magenta: #ec008c;
+$red: #ed1c24;
+$yellow: #fff200;
+$black: #000;
+
+// Tints, Shades, and Mixes
+$light-cyan: mix($white, $cyan, 97%);
+
+// Screen Colors
+$screen-white: rgba($white, .2);
+
+
+//Transitions
+$global-transition-time: 200ms;
+$transition-all: all $global-transition-time ease;
+$transition-color: color $global-transition-time ease;
+$transition-opacity: opacity $global-transition-time ease;
+$transition-padding: padding $global-transition-time ease;
+$transition-position:
+top $global-transition-time ease,
+right $global-transition-time ease,
+bottom $global-transition-time ease,
+left $global-transition-time ease;
+
+$transition-size:
+width $global-transition-time ease,
+height $global-transition-time ease;
+
+//RADII
+$button-radius: 1rem;
+
+//Grid Stuff
+$row-width: 960px;
+$column-gutter: rem-calc(30);
+$total-columns: 12;
+
+//Breakpoints
+
+$baby-lap-break: 28em;
+$lap-break: 52em;
+$desk-break: 61em;
+$wall-break: 75em;
+
+$screen: 'only screen';
+
+$landscape: '#{$screen} and (orientation: landscape)';
+$portrait: '#{$screen} and (orientation: portrait)';
+
+$hand-up: $screen;
+$hand-only: '#{$screen} and (max-width: #{$lap-break})';
+
+$baby-lap-up: '#{$screen} and (min-width:#{$baby-lap-break})';
+$baby-lap-only: '#{$screen} and (min-width:#{$baby-lap-break}) and (max-width:#{$lap-break})';
+
+$lap-up: '#{$screen} and (min-width:#{$lap-break})';
+$lap-only: '#{$screen} and (min-width:#{$lap-break}) and (max-width:#{$desk-break})';
+
+$under-desk: '#{$screen} and (max-width:#{$desk-break})';
+$desk-up: '#{$screen} and (min-width:#{$desk-break})';
+$desk-only: '#{$screen} and (min-width:#{$desk-break}) and (max-width:#{$wall-break})';
+
+$wall-up: '#{$screen} and (min-width:#{$wall-break})';

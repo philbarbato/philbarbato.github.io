@@ -1,0 +1,23 @@
+.header-main {
+  align-items: flex-end;
+  display: flex;
+  flex: 0 0 100%;
+  height: $body-line-height * 8;
+  margin-bottom: $body-line-height;
+  vertical-align: baseline;
+
+  &__heading {
+    color: $magenta;
+    flex: 0 0 30%;
+  }
+
+  &__nav {
+    flex: 0 0 70%;
+    line-height: $body-line-height * 2;
+    text-align: right;
+  }
+
+  &__nav-link {
+    @extend %link;
+  }
+}

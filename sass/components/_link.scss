@@ -1,0 +1,14 @@
+// form bits and bobs
+%link {
+  color: $cyan;
+  transition: background 400ms ease;
+
+  &:hover,
+  &:focus {
+    background-color: $yellow;
+  }
+
+  &:visited {
+    color: $violet;
+  }
+}

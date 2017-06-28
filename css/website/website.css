@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700");
+h1, h2, h3, h4, h5, h6, .nav-main {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased; }
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: inherit;
+  font-family: inherit; }
+
+body {
+  background-color: #f7fdff;
+  margin: 0; }
+
+strong {
+  font-weight: 700; }
+
+em {
+  font-style: italic; }
+
+html {
+  font-size: 16px; }
+
+body {
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.25rem; }
+
+p,
+ul,
+ol,
+blockquote {
+  margin-bottom: 1.25rem;
+  margin-top: 0; }
+
+h1 {
+  line-height: 2.5rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0.625rem 0 0; }
+  @media only screen and (min-width: 61em) {
+    h1 {
+      line-height: 3.75rem;
+      font-family: "Roboto", sans-serif;
+      font-size: 3rem;
+      font-weight: 700;
+      margin: 0.625rem 0 0; } }
+
+h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin: 0.625rem 0; }
+  @media only screen and (min-width: 61em) {
+    h2 {
+      font-family: "Roboto", sans-serif;
+      font-size: 1.25;
+      font-weight: 700;
+      margin: 0.625rem 0; } }
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.17rem;
+  font-weight: 700;
+  margin: 0.625rem 0; }
+  @media only screen and (min-width: 61em) {
+    h3 {
+      font-family: "Roboto", sans-serif;
+      font-size: 1.17rem;
+      font-weight: 700;
+      margin: 0.625rem 0; } }
+
+h4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0.625rem 0; }
+  @media only screen and (min-width: 61em) {
+    h4 {
+      font-family: "Roboto", sans-serif;
+      font-size: 1rem;
+      font-weight: 700;
+      margin: 0.625rem 0; } }
+
+h5 {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.83rem;
+  font-weight: 700;
+  margin: 0.625rem 0; }
+  @media only screen and (min-width: 61em) {
+    h5 {
+      font-family: "Roboto", sans-serif;
+      font-size: 0.83rem;
+      font-weight: 700;
+      margin: 0.625rem 0; } }
+
+h6 {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+  margin: 0.625rem 0; }
+  @media only screen and (min-width: 61em) {
+    h6 {
+      font-family: "Roboto", sans-serif;
+      font-size: 0.75rem;
+      font-weight: 700;
+      margin: 0.625rem 0; } }
+
+.nav-main__link, .header-main__nav-link {
+  color: #00aeef;
+  -webkit-transition: background 400ms ease;
+  transition: background 400ms ease; }
+  .nav-main__link:hover, .header-main__nav-link:hover, .nav-main__link:focus, .header-main__nav-link:focus {
+    background-color: #fff200; }
+  .nav-main__link:visited, .header-main__nav-link:visited {
+    color: #2e3192; }
+
+.nav-main__toggle {
+  display: none; }
+
+.nav-main__heading {
+  color: #2e3192; }
+
+.nav-main__link {
+  display: block;
+  line-height: 1.875rem; }
+
+@media only screen and (max-width: 61em) {
+  .nav-main {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%; }
+    .nav-main__toggle {
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      background-color: #fff;
+      color: #2e3192;
+      height: 2.5rem;
+      line-height: 1.875rem;
+      padding-top: 0.625rem;
+      position: absolute;
+      right: 0.46875rem;
+      text-align: center;
+      text-decoration: none;
+      text-transform: uppercase;
+      top: 0;
+      -webkit-transition: all 200ms ease;
+      transition: all 200ms ease;
+      width: 25%;
+      z-index: 1001; }
+      .nav-main--active .nav-main__toggle {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex; }
+      .nav-main--open .nav-main__toggle {
+        background-color: #2e3192;
+        color: #fff; }
+      .nav-main__toggle-close-text, .nav-main__toggle-open-text {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 100%;
+                flex: 0 0 100%; }
+      .nav-main--open .nav-main__toggle-close-text {
+        display: block; }
+      .nav-main--closed .nav-main__toggle-close-text {
+        display: none; }
+      .nav-main__toggle-open-text {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-flow: column, wrap;
+                flex-flow: column, wrap;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center; }
+        .nav-main--open .nav-main__toggle-open-text {
+          display: none; }
+        .nav-main--closed .nav-main__toggle-open-text {
+          display: block; }
+    .nav-main__link {
+      background-color: #00aeef;
+      border-color: #fff;
+      border-style: solid;
+      border-width: 0 0 1px;
+      color: #fff;
+      display: block;
+      line-height: 2.5rem;
+      padding-left: 0.9375rem;
+      padding-right: 0.9375rem; }
+      .nav-main__link:hover, .nav-main__link:focus {
+        background-color: #00aeef; } }
+
+@media only screen and (min-width: 61em) {
+  .nav-main {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 30%;
+            flex: 0 0 30%;
+    max-width: 30%; }
+    .nav-main__toggle {
+      display: none; }
+    .nav-main__link {
+      padding-left: .15em; } }
+
+.container {
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 1024px;
+  min-height: 100vh;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 100%; }
+
+.header-main {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 100%;
+          flex: 0 0 100%;
+  height: 10rem;
+  margin-bottom: 1.25rem;
+  vertical-align: baseline; }
+  .header-main__heading {
+    color: #ec008c;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 30%;
+            flex: 0 0 30%; }
+  .header-main__nav {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 70%;
+            flex: 0 0 70%;
+    line-height: 2.5rem;
+    text-align: right; }

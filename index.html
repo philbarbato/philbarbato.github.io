@@ -1,1 +1,80 @@
-Hello Nurse
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Phil Barbato makes internets</title>
+  <meta name="description" content="Phil Barbato is a web developer from the old, dark days. When Flash intros were the new hotness and flexbox was but a pipe-dream. Ask him about frames sometime.">
+  <meta name="author" content="Phil Barbato">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="/css/website/website.min.css" />
+
+  <script src="/js/lib/modernizr.js"></script>
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+
+<div class="container">
+
+  <header class="header-main">
+
+    <h1 class="header-main__heading">Phil Barbato</h1>
+
+    <nav class="header-main__nav">
+      <a href="phil_barbato_resume.pdf" class="header-main__nav-link" rel="help" target="_blank">Résumé</a>
+    </nav>
+
+  </header>
+
+  <nav class="nav-main">
+    <h2 class="nav-main__heading">Web Development</h2>
+    <a href="#cao-amazon-trilogy" class="nav-main__link">CAO Amazon Trilogy</a>
+    <a href="#plane-pull" class="nav-main__link">Plane Pull</a>
+    <a href="#polar-plunge" class="nav-main__link">Polar Plunge</a>
+    <a href="#punch" class="nav-main__link">Punch</a>
+    <a href="trueblue" class="nav-main__link">TrueBlue</a>
+  </nav>
+
+  <div class="content">
+
+  </div>
+</div>
+
+
+
+
+
+  <script src="/js/lib/classList.min.js"></script>
+
+  <script src="/js/app.min.js"></script>
+
+
+
+  <!-- via: https://github.com/chuckcarpenter/REM-unit-polyfill -->
+  <!--[if lte IE 9]>
+  {{ theme:js src="rem.min" tag="true" }}
+  <![endif]-->
+
+  <script>
+    var loc = document.location.host
+    if (
+        loc.slice(0,2) == "d." ||
+        loc.slice(0,3) == "10." ||
+        loc.slice(-6) == ".local" ||
+        document.location.host.slice(0,9) == "localhost"
+        ) {
+          var s = document.createElement('script');
+          loc = loc.search(':') > 0 ? loc.split(':')[0] : loc
+          s.src = "//"+loc+":35729/livereload.js";
+          document.body.appendChild(s);
+        }
+  </script>
+
+</body>
+</html>

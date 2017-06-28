@@ -1,0 +1,14 @@
+@media #{$desk-up} {
+  .nav-main {
+    flex: 0 0 30%;
+    max-width: 30%;
+
+    &__toggle {
+      display: none;
+    }
+
+    &__link {
+      padding-left: .15em;
+   }
+  }
+}

@@ -1,0 +1,18 @@
+.nav-main {
+  @extend %font-smoothing;
+
+  &__toggle {
+    display: none;
+  }
+
+  &__heading {
+    color: $violet;
+  }
+
+  &__link {
+    @extend %link;
+
+    display: block;
+    line-height: $body-line-height * 1.5;
+  }
+}

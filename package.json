@@ -1,0 +1,47 @@
+{
+  "name": "SiteName",
+  "version": "0.0.0",
+  "description": "A website from Punch",
+  "main": "../index.php",
+  "dependencies": {
+    "gulp": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PunchRVA/starterfiles.git"
+  },
+  "author": "Punch",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "*",
+    "del": "*",
+    "gulp-cache": "*",
+    "gulp-clean-css": "*",
+    "gulp-concat": "*",
+    "gulp-imagemin": "*",
+    "gulp-jshint": "*",
+    "gulp-livereload": "*",
+    "gulp-notify": "*",
+    "gulp-postcss": "*",
+    "gulp-read": "0.0.1",
+    "gulp-rename": "*",
+    "gulp-sass": "*",
+    "gulp-sass-lint": "*",
+    "gulp-uglify": "*",
+    "jshint": "2.8.0",
+    "node-sass": "*"
+  },
+  "database": "",
+  "browserslist": [
+    "last 2 versions",
+    "safari 5",
+    "ie 8",
+    "ie 9",
+    "opera 12.1",
+    "ios 6",
+    "android 4"
+  ]
+}

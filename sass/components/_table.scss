@@ -1,0 +1,49 @@
+.table {
+  color: $black;
+  margin-bottom: $body-line-height * 2;
+  margin-top: $body-line-height * 2;
+  width: 100%;
+
+  &__heading,
+  &__cell {
+    padding-bottom: $body-line-height / 4;
+    padding-left: $column-gutter / 4;
+    padding-right: $column-gutter / 4;
+    padding-top: $body-line-height / 4;
+  }
+
+  &__heading {
+    background-color: $darkish-blue;
+    color: $white;
+    font-size: rem-calc(18);
+    font-weight: 400;
+    text-align: left;
+
+    &--center {
+      text-align: center;
+    }
+
+    &--small {
+      font-size: 1rem;
+    }
+  }
+
+  &__cell {
+    :nth-child(odd)>& {
+      background-color: $table-stripe-odd-blue;
+    }
+
+    :nth-child(even)>& {
+      background-color: $table-stripe-even-blue;
+    }
+  }
+
+  &__total-cell {
+    border-left: 1px solid $darkish-blue;
+    text-align: center;
+  }
+
+  &__spacer-cell {
+    height: $body-line-height;
+  }
+}

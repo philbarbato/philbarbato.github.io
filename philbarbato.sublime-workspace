@@ -1,0 +1,738 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mw",
+				"max-width"
+			],
+			[
+				"ta",
+				"ta-l\ttext-align: left;"
+			],
+			[
+				"border-col",
+				"border-color"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"bgr",
+				"bgr-n\tbackground-repeat: no-repeat;"
+			],
+			[
+				"vab",
+				"va-bl\tvertical-align: baseline;"
+			],
+			[
+				"di",
+				"d-i\tdisplay: inline;"
+			],
+			[
+				"small-only",
+				"small-only\t _global.scss"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"small",
+				"small-only\t app.scss"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"l",
+				"log"
+			],
+			[
+				"back",
+				"background-attachment"
+			],
+			[
+				"backgr",
+				"background-image"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 12,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"ssex",
+				"Set Syntax: ExpressionEngine"
+			],
+			[
+				"ssphp",
+				"Set Syntax: PHP"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"compa",
+				"Compare with..."
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"brow",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 601.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/philbarbato/Sites/philbarbato.github.io"
+	],
+	"file_history":
+	[
+		"/Users/philbarbato/Sites/variant-events/virginiawineexpo.com/assets/sass/website/components/_date-banner.scss",
+		"/Users/philbarbato/Sites/variant-events/sys/user/templates/vawineexpo/includes.group/.mobile-nav.html",
+		"/Users/philbarbato/Sites/variant-events/nationalbeerexpo.com/assets/scss/_settings.scss",
+		"/Users/philbarbato/Sites/variant-events/templates_old/vawineexpo/includes.group/.mobile-nav.html",
+		"/Users/philbarbato/Sites/variant-events/templates_old/vawineexpo/layouts.group/default.html",
+		"/Users/philbarbato/Sites/variant-events/sys/user/config/config.php",
+		"/Users/philbarbato/Sites/variant-events/config/config.master.php",
+		"/Users/philbarbato/Sites/variant-events/virginiawineexpo.com/index.php",
+		"/Users/philbarbato/Sites/variant-events/virginiawineexpo.com/admin.php",
+		"/Users/philbarbato/Sites/variant-events/wineexcursion.com/admin.php",
+		"/Users/philbarbato/Sites/variant-events/wineexcursion.com/index.php.old",
+		"/Users/philbarbato/Sites/variant-events/wineexcursion.com/index.php",
+		"/Users/philbarbato/Sites/variant-events/nationalbeerexpo.com/admin.php",
+		"/Users/philbarbato/Sites/variant-events/nationalbeerexpo.com/admin.php.old",
+		"/Users/philbarbato/Sites/variant-events/nationalbeerexpo.com/index.php",
+		"/Users/philbarbato/Sites/variant-events/templates/vawineexpo/layouts.group/index.html",
+		"/Users/philbarbato/Sites/variant-events/config/config.prod.php",
+		"/Users/philbarbato/Sites/variant-events/virginiawineexpo.com/assets/sass/website/components/_event-links.scss",
+		"/Users/philbarbato/Sites/variant-events/templates/vawineexpo/svg.group/logo-walkaround.xml",
+		"/Users/philbarbato/Sites/variant-events/templates/vawineexpo/svg.group/vwe-logo--wide.xml",
+		"/Users/philbarbato/Sites/variant-events/templates/vawineexpo/svg.group/vwe-logo--compact.xml",
+		"/Users/philbarbato/Sites/variant-events/templates/vawineexpo/layouts.group/secondary.html",
+		"/Users/philbarbato/Sites/variant-events/virginiawineexpo.com/assets/sass/website/components/_logo-toggle.scss",
+		"/Users/philbarbato/Sites/variant-events/virginiawineexpo.com/assets/sass/website/components/_nav-main.scss",
+		"/Users/philbarbato/Sites/variant-events/config/config.local.php",
+		"/Users/philbarbato/Sites/variant-events/templates/vawineexpo/includes.group/.homepage-event-link.html",
+		"/Users/philbarbato/Sites/variant-events/templates/vawineexpo/gallery.group/index.html",
+		"/Users/philbarbato/Sites/variant-events/virginiawineexpo.com/assets/sass/website/components/_gallery.scss",
+		"/Users/philbarbato/Sites/variant-events/templates/vawineexpo/svg.group/logo-smoked.xml",
+		"/Users/philbarbato/Sites/variant-events/virginiawineexpo.com/assets/sass/website/components/_regions.scss",
+		"/Users/philbarbato/Sites/variant-events/config/config.stage.php",
+		"/Users/philbarbato/Sites/variant-events/virginiawineexpo.com/assets/sass/global/_vars.scss",
+		"/Users/philbarbato/Sites/variant-events/virginiawineexpo.com/assets/sass/global/_zindex.scss",
+		"/Users/philbarbato/Sites/variant-events/virginiawineexpo.com/assets/sass/website/components/_page-footer.scss",
+		"/Users/philbarbato/Sites/variant-events/templates/vawineexpo/layouts.group/default.html",
+		"/Users/philbarbato/Sites/variant-events/virginiawineexpo.com/assets/sass/website/components/_nav-mobile.scss",
+		"/Users/philbarbato/Sites/variant-events/virginiawineexpo.com/assets/js/modernizr.js",
+		"/Users/philbarbato/Sites/variant-events/virginiawineexpo.com/assets/sass/website/website.scss",
+		"/Users/philbarbato/Sites/variant-events/virginiawineexpo.com/assets/sass/website/components/_slideshow.scss",
+		"/Users/philbarbato/Sites/variant-events/virginiawineexpo.com/assets/sass/website/components/_hero.scss",
+		"/Users/philbarbato/Sites/variant-events/virginiawineexpo.com/assets/sass/website/components/_email-signup.scss",
+		"/Users/philbarbato/Sites/variant-events/virginiawineexpo.com/assets/sass/website/components/_button-block.scss",
+		"/Users/philbarbato/Sites/variant-events/virginiawineexpo.com/assets/sass/website/components/lib/_lory.scss",
+		"/Users/philbarbato/Sites/variant-events/virginiawineexpo.com/assets/js/homepage_slider.js",
+		"/Users/philbarbato/Sites/variant-events/virginiawineexpo.com/assets/sass/website/components/_schedule.scss",
+		"/Users/philbarbato/Sites/variant-events/templates/vawineexpo/svg.group/social-facebook.xml",
+		"/Users/philbarbato/Sites/variant-events/virginiawineexpo.com/assets/sass/website/components/_button.scss",
+		"/Users/philbarbato/Sites/variant-events/virginiawineexpo.com/assets/js/jquery.cycle2.min.js",
+		"/Users/philbarbato/Sites/variant-events/virginiawineexpo.com/assets/js/start_slideshow.js",
+		"/Users/philbarbato/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/philbarbato/Sites/variant-events/virginiawineexpo.com/assets/js/lory.min.js",
+		"/Users/philbarbato/Sites/variant-events/virginiawineexpo.com/assets/sass/website/components/_vwe-details.scss",
+		"/Users/philbarbato/Sites/variant-events/templates/vawineexpo/layouts.group/schedule.html",
+		"/Users/philbarbato/Sites/variant-events/templates/vawineexpo/wineries.group/index.html",
+		"/Users/philbarbato/Sites/variant-events/virginiawineexpo.com/assets/sass/website/components/_vendors.scss",
+		"/Users/philbarbato/Sites/variant-events/templates/vawineexpo/includes.group/.event-spotlight.html",
+		"/Users/philbarbato/Sites/variant-events/virginiawineexpo.com/assets/sass/website/components/_interior-page.scss",
+		"/Users/philbarbato/Sites/variant-events/templates/vawineexpo/includes.group/.mobile-nav.html",
+		"/Users/philbarbato/Sites/variant-events/virginiawineexpo.com/assets/gulpfile.js",
+		"/Users/philbarbato/Sites/variant-events/templates/vawineexpo/includes.group/.event_loop_new.html",
+		"/Users/philbarbato/Sites/variant-events/templates/vawineexpo/includes.group/.sidebar-cat-key.html",
+		"/Users/philbarbato/Sites/variant-events/templates/vawineexpo/svg.group/nbe-logo.xml",
+		"/Users/philbarbato/Sites/variant-events/templates/vawineexpo/svg.group/logo-burgerblast.xml",
+		"/Users/philbarbato/Sites/variant-events/templates/vawineexpo/svg.group/hamburger.xml",
+		"/Users/philbarbato/Sites/variant-events/virginiawineexpo.com/assets/sass/global/_mixins.scss",
+		"/Users/philbarbato/Sites/variant-events/virginiawineexpo.com/assets/sass/website/components/_variant-bug.scss",
+		"/Users/philbarbato/Sites/variant-events/virginiawineexpo.com/assets/sass/website/components/_page-prefooter.scss",
+		"/Users/philbarbato/Sites/variant-events/virginiawineexpo.com/assets/sass/global/_typography.scss",
+		"/Users/philbarbato/Sites/variant-events/virginiawineexpo.com/assets/sass/website/components/_page-header.scss",
+		"/Users/philbarbato/Sites/variant-events/virginiawineexpo.com/assets/sass/website/components/_content.scss",
+		"/Users/philbarbato/Sites/variant-events/virginiawineexpo.com/assets/sass/global/_normalize.scss",
+		"/Users/philbarbato/Sites/variant-events/virginiawineexpo.com/assets/sass/global/_fonts.scss",
+		"/Users/philbarbato/Sites/variant-events/virginiawineexpo.com/assets/images/ui/vwe-logo.svg",
+		"/Users/philbarbato/Sites/variant-events/templates/vawineexpo/svg.group/index.html",
+		"/Users/philbarbato/Sites/variant-events/virginiawineexpo.com/assets/sass/global/_gridilydidily.scss",
+		"/Users/philbarbato/Sites/variant-events/virginiawineexpo.com/assets/sass/global/gridilydidily/_grid-modifiers.scss",
+		"/Users/philbarbato/Sites/variant-events/virginiawineexpo.com/assets/sass/global/gridilydidily/_defaults.scss",
+		"/Users/philbarbato/Sites/variant-events/virginiawineexpo.com/assets/sass/global/gridilydidily/_helper.scss",
+		"/Users/philbarbato/Sites/variant-events/templates/vawineexpo/includes.group/.sidebar_bottom.html",
+		"/Users/philbarbato/Sites/variant-events/config/config.env.php",
+		"/Users/philbarbato/Sites/variant-events/virginiawineexpo.com/assets/sass/global/_rem-calc.scss",
+		"/Users/philbarbato/Sites/variant-events/virginiawineexpo.com/assets/sass/website/components/_header.scss",
+		"/Users/philbarbato/Sites/variant-events/virginiawineexpo.com/assets/sass/website/components/_header-nav.scss",
+		"/Users/philbarbato/Sites/variant-events/virginiawineexpo.com/assets/sass/website/components/_footer.scss",
+		"/Users/philbarbato/Sites/variant-events/virginiawineexpo.com/assets/.sass-lint.yml",
+		"/Users/philbarbato/Sites/variant-events/virginiawineexpo.com/assets/sass/website/components/_sponsors.scss",
+		"/Users/philbarbato/Sites/variant-events/virginiawineexpo.com/assets/sass/website/components/_homepage.scss",
+		"/Users/philbarbato/Sites/variant-events/virginiawineexpo.com/assets/sass/components/_homepage-animation.scss",
+		"/Users/philbarbato/Sites/variant-events/templates/nationalbeerexpo/layouts.group/index.html",
+		"/Users/philbarbato/Sites/variant-events/templates/nationalbeerexpo/inc.group/_html-end.html",
+		"/Users/philbarbato/Sites/variant-events/nationalbeerexpo.com/assets/images/nbe-logo-new.svg",
+		"/Users/philbarbato/Sites/variant-events/virginiawineexpo.com/assets/sass/components/_button.scss",
+		"/Users/philbarbato/Sites/variant-events/virginiawineexpo.com/assets/scsslint.yml",
+		"/Users/philbarbato/Sites/variant-events/templates/nationalbeerexpo/inc.group/_html-start.html",
+		"/Users/philbarbato/Sites/variant-events/nationalbeerexpo.com/assets/scss/app.scss",
+		"/Users/philbarbato/Sites/variant-events/nationalbeerexpo.com/assets/scss/foundation/components/_block-grid.scss",
+		"/Users/philbarbato/Sites/variant-events/nationalbeerexpo.com/assets/scss/foundation/components/_accordion.scss",
+		"/Users/philbarbato/Sites/variant-events/nationalbeerexpo.com/assets/scss/foundation/components/_alert-boxes.scss",
+		"/Users/philbarbato/Sites/variant-events/nationalbeerexpo.com/assets/scss/foundation/components/_breadcrumbs.scss",
+		"/Users/philbarbato/Sites/variant-events/nationalbeerexpo.com/assets/scss/foundation/components/_buttons.scss",
+		"/Users/philbarbato/Sites/variant-events/nationalbeerexpo.com/assets/scss/foundation/components/_clearing.scss",
+		"/Users/philbarbato/Sites/variant-events/nationalbeerexpo.com/assets/scss/foundation/components/_dropdown-buttons.scss",
+		"/Users/philbarbato/Sites/variant-events/nationalbeerexpo.com/assets/scss/foundation/components/_dropdown.scss",
+		"/Users/philbarbato/Sites/variant-events/nationalbeerexpo.com/assets/scss/foundation/components/_flex-video.scss",
+		"/Users/philbarbato/Sites/variant-events/nationalbeerexpo.com/assets/scss/foundation/components/_joyride.scss",
+		"/Users/philbarbato/Sites/variant-events/nationalbeerexpo.com/assets/scss/foundation/components/_keystrokes.scss",
+		"/Users/philbarbato/Sites/variant-events/nationalbeerexpo.com/assets/scss/foundation/components/_labels.scss",
+		"/Users/philbarbato/Sites/variant-events/nationalbeerexpo.com/assets/scss/foundation/components/_magellan.scss",
+		"/Users/philbarbato/Sites/variant-events/nationalbeerexpo.com/assets/scss/foundation/components/_offcanvas.scss",
+		"/Users/philbarbato/Sites/variant-events/nationalbeerexpo.com/assets/scss/foundation/components/_orbit.scss",
+		"/Users/philbarbato/Sites/variant-events/nationalbeerexpo.com/assets/scss/foundation/components/_pagination.scss",
+		"/Users/philbarbato/Sites/variant-events/nationalbeerexpo.com/assets/scss/foundation/components/_panels.scss",
+		"/Users/philbarbato/Sites/variant-events/nationalbeerexpo.com/assets/scss/foundation/components/_pricing-tables.scss",
+		"/Users/philbarbato/Sites/variant-events/nationalbeerexpo.com/assets/scss/foundation/components/_progress-bars.scss",
+		"/Users/philbarbato/Sites/variant-events/nationalbeerexpo.com/assets/scss/foundation/components/_range-slider.scss",
+		"/Users/philbarbato/Sites/variant-events/nationalbeerexpo.com/assets/scss/foundation/components/_reveal.scss",
+		"/Users/philbarbato/Sites/variant-events/nationalbeerexpo.com/assets/scss/foundation/components/_split-buttons.scss",
+		"/Users/philbarbato/Sites/variant-events/nationalbeerexpo.com/assets/scss/foundation/components/_switch.scss",
+		"/Users/philbarbato/Sites/variant-events/nationalbeerexpo.com/assets/scss/foundation/components/_tabs.scss",
+		"/Users/philbarbato/Sites/variant-events/nationalbeerexpo.com/assets/scss/foundation/components/_thumbs.scss",
+		"/Users/philbarbato/Sites/variant-events/nationalbeerexpo.com/assets/scss/foundation/components/_tooltips.scss",
+		"/Users/philbarbato/Sites/variant-events/nationalbeerexpo.com/assets/scss/foundation/components/_type.scss",
+		"/Users/philbarbato/Sites/variant-events/nationalbeerexpo.com/assets/scss/foundation/components/_visibility.scss",
+		"/Users/philbarbato/Sites/variant-events/nationalbeerexpo.com/assets/scss/foundation/components/_top-bar.scss",
+		"/Users/philbarbato/Sites/variant-events/nationalbeerexpo.com/assets/scss/foundation/components/_tables.scss",
+		"/Users/philbarbato/Sites/variant-events/nationalbeerexpo.com/assets/scss/foundation/components/_sub-nav.scss",
+		"/Users/philbarbato/Sites/variant-events/nationalbeerexpo.com/assets/scss/foundation/components/_side-nav.scss",
+		"/Users/philbarbato/Sites/variant-events/nationalbeerexpo.com/assets/scss/foundation/components/_grid.scss"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/philbarbato/Sites/variant-events/",
+			"/Users/philbarbato/Sites/variant-events/templates",
+			"/Users/philbarbato/Sites/variant-events/",
+			"/Users/philbarbato/Sites/variant-events/templates/vawineexpo",
+			"<open folders>",
+			"*.html",
+			"/Users/philbarbato/Sites/variant-events/virginiawineexpo.com/assets/sass",
+			"/Users/philbarbato/Sites/variant-events/nationalbeerexpo.com/assets/scss",
+			"<open folders>",
+			"*.scss",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"cp_url",
+			"exp:structure_nav:basic",
+			"{exp:structure_nav:basic}",
+			"exp:structure_nav:basic",
+			"$system_path = './system'",
+			"$system_path = './system';",
+			"paypal",
+			" class=\"st0\"",
+			"#FFFFFF",
+			"virginiawineexpo.local",
+			"nationalbeerexpo.local",
+			"nationalbeerexpo",
+			"FLC_",
+			"akuzemchak",
+			"cp_url",
+			"International",
+			"international",
+			"padding-",
+			".5em",
+			"ul",
+			"start_slideshow",
+			"ticketlink",
+			"aria",
+			"body-line-height",
+			"mobile",
+			"grid-item",
+			"{layout:loc}",
+			"float",
+			": ",
+			"    @media #{$lap-up} {\n      float: right;\n    }\n",
+			"float",
+			"wut<br>",
+			"float",
+			"1em",
+			" * 1.5",
+			"#C0C0C0",
+			"#currentColor",
+			"C0C0C0",
+			".5em",
+			"margin",
+			"transform",
+			"padding",
+			"link-item",
+			"div",
+			"page-prefooter__benefit-image",
+			"#FFFFFF",
+			"defs",
+			"align",
+			" data-grid=\"12/12\" data-grid--medium=\"6/12\"",
+			" grid__item",
+			"      background-position: center center;\n      background-size: cover;\n      background-repeat: no-repeat;\n",
+			" data-grid--medium=\"4/12\"",
+			"&:",
+			" * 2",
+			"4/12",
+			"event-links__link",
+			"grid__item",
+			" grid__item",
+			"section",
+			"event-logo",
+			"hero-links",
+			" grid__item",
+			"div",
+			"#FFFFFF",
+			"main-nav",
+			"item",
+			"lora",
+			",",
+			" data-grid=\"12/12\"",
+			"\">",
+			"footer-",
+			"embed:layout",
+			"@include (.*)\\(\\)",
+			"@include (.)*\\(\\)",
+			"@include (.)\\(\\)",
+			"@include (*)\\(\\)",
+			"@include font-smoothing()",
+			"inBetween",
+			"gridilydidily",
+			":([^ ])",
+			":(.)",
+			"scsslint",
+			"global",
+			".title",
+			": ",
+			"\n@import \"global\";",
+			"@import \"global\"",
+			"*:after",
+			"*, *:before, *:after",
+			"*,*:before,*:after",
+			"defs",
+			"nam",
+			"”",
+			"“",
+			".small-hero",
+			"\"",
+			",\n  \"",
+			"bebas",
+			"defs",
+			".home-se",
+			"picBoxes",
+			"resize",
+			"<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');",
+			"search",
+			"logo",
+			"h1",
+			".header",
+			"h1",
+			"000460",
+			".footer",
+			"#000",
+			".main-content",
+			".55s",
+			".logo",
+			"font-family: 'Merriweather', serif;",
+			"navigatio",
+			"header",
+			"class"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"$system_path = '../sys';",
+			"$system_path = './system';",
+			"@extend %$1",
+			"@extend %font-smoothing",
+			"@include font-smoothing()",
+			": $1",
+			"\n// @import \"global\";",
+			"\n@import \"global\";",
+			"#808080",
+			".33s",
+			".55s"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 12,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"git_savvy.file_path": "/Users/philbarbato/Sites/philbarbato.github.io/index.html",
+							"git_savvy.repo_path": "/Users/philbarbato/Sites/philbarbato.github.io",
+							"syntax": "Packages/ExpressionEngine/ExpressionEngine.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.CSS Extended Completions":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "philbarbato.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"_top",
+				"nationalbeerexpo.com/assets/bower_components/foundation/scss/foundation/components/_top-bar.scss"
+			],
+			[
+				"acord",
+				"nationalbeerexpo.com/assets/bower_components/foundation/scss/foundation/components/_accordion.scss"
+			],
+			[
+				"gru",
+				"nationalbeerexpo.com/assets/Gruntfile.js"
+			],
+			[
+				"found",
+				"nationalbeerexpo.com/assets/bower_components/foundation/scss/foundation.scss"
+			],
+			[
+				"foundfun",
+				"nationalbeerexpo.com/assets/bower_components/foundation/scss/foundation/_functions.scss"
+			],
+			[
+				"founfu",
+				"nationalbeerexpo.com/assets/scss/foundation/_functions.scss"
+			],
+			[
+				"_sett",
+				"nationalbeerexpo.com/assets/scss/_settings.scss"
+			],
+			[
+				"top",
+				"nationalbeerexpo.com/assets/bower_components/foundation/scss/foundation/components/_top-bar.scss"
+			],
+			[
+				"sett",
+				"nationalbeerexpo.com/oldassets/scss/_settings.scss"
+			],
+			[
+				"schesc",
+				"nationalbeerexpo.com/assets/scss/_schedule.scss"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"mlb",
+				"~/Documents/ml-bell.sublime-project"
+			],
+			[
+				"true",
+				"~/Documents/trueblue.sublime-project"
+			],
+			[
+				"sov",
+				"~/Documents/sova.sublime-project"
+			],
+			[
+				"conno",
+				"~/Documents/connoreheroes.sublime-project"
+			],
+			[
+				"chfr",
+				"~/Documents/chfrichmond.sublime-project"
+			],
+			[
+				"",
+				"~/Documents/ag21.sublime-project"
+			],
+			[
+				"chi",
+				"~/Documents/chfrichmond.sublime-project"
+			],
+			[
+				"punc",
+				"~/Documents/punchrva.sublime-project"
+			],
+			[
+				"sova",
+				"~/Documents/sova.sublime-project"
+			],
+			[
+				"punch",
+				"~/Documents/punchrva.sublime-project"
+			],
+			[
+				"connor",
+				"~/Documents/connoreheroes.sublime-project"
+			],
+			[
+				"wein",
+				"~/Documents/weinsteinjcc.sublime-project"
+			],
+			[
+				"furs",
+				"~/Documents/fursdogs.sublime-project"
+			],
+			[
+				"lemon",
+				"~/Documents/lemonaid.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 276.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

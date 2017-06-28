@@ -1,0 +1,51 @@
+$header-size-hand: (
+  h1: 2rem,
+  h2: 1.25rem,
+  h3: 1.17rem,
+  h4: 1rem,
+  h5: .83rem,
+  h6: .75rem
+);
+
+$header-size-desk: (
+  h1: 3rem,
+  h2: 1.25,
+  h3: 1.17rem,
+  h4: 1rem,
+  h5: .83rem,
+  h6: .75rem
+);
+
+$header-margin: (
+  h1: $body-line-height / 2 0 0,
+  h2: $body-line-height / 2 0,
+  h3: $body-line-height / 2 0,
+  h4: $body-line-height / 2 0,
+  h5: $body-line-height / 2 0,
+  h6: $body-line-height / 2 0
+);
+
+@each $h in h1, h2, h3, h4, h5, h6 {
+  #{$h} {
+    @extend %font-smoothing;
+
+    @if $h == h1 {
+      line-height: $body-line-height * 2;
+    }
+    font-family: $heading-font-family;
+    font-size: map-get($header-size-hand, #{$h});
+    font-weight: $heading-font-weight;
+    margin: map-get($header-margin, #{$h});
+
+    @media #{$desk-up} {
+      @if $h == h1 {
+        line-height: $body-line-height * 3;
+      }
+      font-family: $heading-font-family;
+      font-size: map-get($header-size-desk, #{$h});
+      font-weight: $heading-font-weight;
+      margin: map-get($header-margin, #{$h});
+    }
+  }
+}
+

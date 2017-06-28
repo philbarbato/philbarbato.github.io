@@ -1,0 +1,45 @@
+// Typography
+
+$body-font-family: 'Roboto', sans-serif;
+$body-font-size: 1rem;
+$body-line-height: 1.25rem;
+$body-font-weight: 400 !default;
+
+$heading-font-family: $body-font-family;
+$heading-font-weight: 700 !default;
+
+$default-color: $black !default;
+
+html {
+  font-size: 16px;
+}
+
+body {
+  color: $default-color;
+  font-family: $body-font-family;
+  font-size: $body-font-size;
+  font-weight: $body-font-weight;
+  line-height: $body-line-height;
+}
+
+p,
+ul,
+ol,
+blockquote {
+  margin-bottom: $body-line-height;
+  margin-top: 0;
+}
+
+// you only need this for sites with fixed headers
+// tricks the page into scrolling your anchor links below the height of the fixed header
+%jump-link-dest {
+  &::before {
+    content: ' ';
+    display: block;
+    // these two should be the height of the fixed header plus whatever padding you want
+    height: $body-line-height * 6;
+    margin-top: -($body-line-height * 6);
+    visibility: hidden;
+  }
+}
+
