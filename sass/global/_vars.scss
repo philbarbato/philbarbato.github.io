@@ -9,10 +9,27 @@ $yellow: #fff200;
 $black: #000;
 
 // Tints, Shades, and Mixes
-$light-cyan: mix($white, $cyan, 97%);
+$pale-green: mix($white, $green, 97%);
+$pale-cyan: mix($white, $cyan, 97%);
+$pale-violet: mix($white, $violet, 94%);
+$pale-magenta: mix($white, $magenta, 97%);
+$pale-red: mix($white, $red, 92%);
+$pale-yellow: mix($white, $yellow, 92%);
+$light-green: mix($white, $green, 80%);
+$light-cyan: mix($white, $cyan, 80%);
+$light-violet: mix($white, $violet, 80%);
+$light-magenta: mix($white, $magenta, 80%);
+$light-red: mix($white, $red, 80%);
+$light-yellow: mix($white, $yellow, 80%);
 
 // Screen Colors
 $screen-white: rgba($white, .2);
+$screen-green: rgba($green, .2);
+$screen-cyan: rgba($cyan, .2);
+$screen-violet: rgba($violet, .2);
+$screen-magenta: rgba($magenta, .2);
+$screen-red: rgba($red, .2);
+$screen-yellow: rgba($yellow, .2);
 
 
 //Transitions
@@ -35,7 +52,7 @@ height $global-transition-time ease;
 $button-radius: 1rem;
 
 //Grid Stuff
-$row-width: 960px;
+$row-width: 1320px;
 $column-gutter: rem-calc(30);
 $total-columns: 12;
 

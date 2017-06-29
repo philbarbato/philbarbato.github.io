@@ -1,12 +1,10 @@
 .container {
   align-content: flex-start;
-  align-items: flex-start;
+  align-items: stretch;
   background-color: $white;
   display: flex;
-  flex-wrap: wrap;
+  flex: 1 1 100%;
+  flex-wrap: nowrap;
   max-width: 1024px;
-  min-height: 100vh;
-  padding-left: $column-gutter / 2;
-  padding-right: $column-gutter / 2;
   width: 100%;
 }
