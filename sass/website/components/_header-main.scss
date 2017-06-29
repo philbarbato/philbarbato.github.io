@@ -20,8 +20,6 @@
     padding-left: $column-gutter / 2;
     text-shadow: 3px 3px 0 $yellow;
 
-    &:hover,
-    &:focus {
       animation-duration: 208.333ms;
       animation-iteration-count: infinite;
       animation-name: jitter;
@@ -41,7 +39,6 @@
         $screen-yellow 80px, $screen-yellow 90px, $screen-cyan 90px, $screen-cyan 110px,
         $screen-violet 110px, $screen-violet 140px, $screen-green 140px, $screen-green 160px
       );
-    }
   }
 
   @keyframes jitter {
