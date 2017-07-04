@@ -10,12 +10,13 @@
   }
 
   &__heading {
-    color: $violet;
+    color: $purple;
   }
 
   &__link {
     @extend %link;
 
+    color: $purple;
     display: block;
     line-height: $body-line-height * 1.5;
   }

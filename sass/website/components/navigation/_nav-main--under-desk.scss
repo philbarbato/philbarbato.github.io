@@ -9,7 +9,7 @@
     &__toggle {
       align-items: center;
       background-color: $white;
-      color: $violet;
+      color: $indigo;
       height: $body-line-height * 2;
       line-height: $body-line-height * 1.5;
       padding-top: $body-line-height * .5;
@@ -28,7 +28,7 @@
       }
 
       .nav-main--open & {
-        background-color: $violet;
+        background-color: $indigo;
         color: $white;
       }
 
