@@ -228,9 +228,8 @@ h6 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    height: 3.75rem;
+    height: 6.25rem;
     margin-top: 0;
-    max-width: 100%;
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
     text-shadow: 3px 3px 0 #fff200;
