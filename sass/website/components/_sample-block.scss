@@ -71,6 +71,7 @@
   &__link {
     @extend %link;
 
+    background: $white;
     padding-left: $column-gutter / 2;
     padding-right: $column-gutter / 2;
   }
