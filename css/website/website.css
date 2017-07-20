@@ -44,7 +44,7 @@ html {
   font-size: 16px; }
 
 body {
-  color: #000;
+  color: #2e3192;
   font-family: "Raleway", sans-serif;
   font-size: 1rem;
   font-weight: 400;
@@ -277,11 +277,18 @@ h6 {
   .header-main__nav-link {
     margin-left: .5rem; }
 
-.content__heading {
-  color: #ec008c;
-  margin-bottom: 1.25rem;
+.content__heading, .content__subheading, .content p {
   padding-left: 0.9375rem;
   padding-right: 0.9375rem; }
+
+.content__heading {
+  color: #ec008c;
+  margin-bottom: 1.25rem; }
+
+.content__subheading {
+  color: #ec008c;
+  margin-bottom: 1.25rem;
+  padding-top: 1.25rem; }
 
 .sample-block {
   background-size: cover;
@@ -302,50 +309,80 @@ h6 {
   padding-left: 0.9375rem;
   padding-top: 1.25rem; }
   .sample-block--cao-amazon {
-    background-image: url("/img/screenshot_0003_caoamazon@0,5x.jpg");
-    background-image: -webkit-image-set(url("/img/screenshot_0003_caoamazon@0,5x.jpg") 1x, url("/img/screenshot_0003_caoamazon.jpg") 2x);
-    background-image: image-set(url("/img/screenshot_0003_caoamazon@0,5x.jpg") 1x, url("/img/screenshot_0003_caoamazon.jpg") 2x); }
+    background-image: -webkit-gradient(linear, right top, left top, from(rgba(145, 38, 143, 0.85)), to(rgba(145, 38, 143, 0.85))), url("/img/screenshot_0003_caoamazon@0,5x.jpg");
+    background-image: -webkit-linear-gradient(right, rgba(145, 38, 143, 0.85) 0%, rgba(145, 38, 143, 0.85) 100%), url("/img/screenshot_0003_caoamazon@0,5x.jpg");
+    background-image: linear-gradient(to left, rgba(145, 38, 143, 0.85) 0%, rgba(145, 38, 143, 0.85) 100%), url("/img/screenshot_0003_caoamazon@0,5x.jpg");
+    background-image: -webkit-gradient(linear, right top, left top, from(rgba(145, 38, 143, 0.85)), to(rgba(145, 38, 143, 0.85))), image-set(url("/img/screenshot_0003_caoamazon@0,5x.jpg") 1x, url("/img/screenshot_0003_caoamazon.jpg") 2x);
+    background-image: -webkit-linear-gradient(right, rgba(145, 38, 143, 0.85) 0%, rgba(145, 38, 143, 0.85) 100%), -webkit-image-set(url("/img/screenshot_0003_caoamazon@0,5x.jpg") 1x, url("/img/screenshot_0003_caoamazon.jpg") 2x);
+    background-image: linear-gradient(to left, rgba(145, 38, 143, 0.85) 0%, rgba(145, 38, 143, 0.85) 100%), image-set(url("/img/screenshot_0003_caoamazon@0,5x.jpg") 1x, url("/img/screenshot_0003_caoamazon.jpg") 2x); }
     @media only screen and (min-width: 61em) {
       .sample-block--cao-amazon {
-        background-image: url("/img/screenshot_0003_caoamazon.jpg");
-        background-image: -webkit-image-set(url("/img/screenshot_0003_caoamazon.jpg") 1x, url("/img/screenshot_0003_caoamazon@2x.jpg") 2x);
-        background-image: image-set(url("/img/screenshot_0003_caoamazon.jpg") 1x, url("/img/screenshot_0003_caoamazon@2x.jpg") 2x); } }
+        background-image: -webkit-gradient(linear, right top, left top, from(rgba(145, 38, 143, 0.85)), to(rgba(145, 38, 143, 0.85))), url("/img/screenshot_0003_caoamazon.jpg");
+        background-image: -webkit-linear-gradient(right, rgba(145, 38, 143, 0.85) 0%, rgba(145, 38, 143, 0.85) 100%), url("/img/screenshot_0003_caoamazon.jpg");
+        background-image: linear-gradient(to left, rgba(145, 38, 143, 0.85) 0%, rgba(145, 38, 143, 0.85) 100%), url("/img/screenshot_0003_caoamazon.jpg");
+        background-image: -webkit-gradient(linear, right top, left top, from(rgba(145, 38, 143, 0.85)), to(rgba(145, 38, 143, 0.85))), image-set(url("/img/screenshot_0003_caoamazon.jpg") 1x, url("/img/screenshot_0003_caoamazon@2x.jpg") 2x);
+        background-image: -webkit-linear-gradient(right, rgba(145, 38, 143, 0.85) 0%, rgba(145, 38, 143, 0.85) 100%), -webkit-image-set(url("/img/screenshot_0003_caoamazon.jpg") 1x, url("/img/screenshot_0003_caoamazon@2x.jpg") 2x);
+        background-image: linear-gradient(to left, rgba(145, 38, 143, 0.85) 0%, rgba(145, 38, 143, 0.85) 100%), image-set(url("/img/screenshot_0003_caoamazon.jpg") 1x, url("/img/screenshot_0003_caoamazon@2x.jpg") 2x); } }
   .sample-block--plane-pull {
-    background-image: url("/img/screenshot_0004_planepull@0,5x.jpg");
-    background-image: -webkit-image-set(url("/img/screenshot_0004_planepull@0,5x.jpg") 1x, url("/img/screenshot_0004_planepull.jpg") 2x);
-    background-image: image-set(url("/img/screenshot_0004_planepull@0,5x.jpg") 1x, url("/img/screenshot_0004_planepull.jpg") 2x); }
+    background-image: -webkit-gradient(linear, right top, left top, from(rgba(145, 38, 143, 0.85)), to(rgba(145, 38, 143, 0.85))), url("/img/screenshot_0004_planepull@0,5x.jpg");
+    background-image: -webkit-linear-gradient(right, rgba(145, 38, 143, 0.85) 0%, rgba(145, 38, 143, 0.85) 100%), url("/img/screenshot_0004_planepull@0,5x.jpg");
+    background-image: linear-gradient(to left, rgba(145, 38, 143, 0.85) 0%, rgba(145, 38, 143, 0.85) 100%), url("/img/screenshot_0004_planepull@0,5x.jpg");
+    background-image: -webkit-gradient(linear, right top, left top, from(rgba(145, 38, 143, 0.85)), to(rgba(145, 38, 143, 0.85))), image-set(url("/img/screenshot_0004_planepull@0,5x.jpg") 1x, url("/img/screenshot_0004_planepull.jpg") 2x);
+    background-image: -webkit-linear-gradient(right, rgba(145, 38, 143, 0.85) 0%, rgba(145, 38, 143, 0.85) 100%), -webkit-image-set(url("/img/screenshot_0004_planepull@0,5x.jpg") 1x, url("/img/screenshot_0004_planepull.jpg") 2x);
+    background-image: linear-gradient(to left, rgba(145, 38, 143, 0.85) 0%, rgba(145, 38, 143, 0.85) 100%), image-set(url("/img/screenshot_0004_planepull@0,5x.jpg") 1x, url("/img/screenshot_0004_planepull.jpg") 2x); }
     @media only screen and (min-width: 61em) {
       .sample-block--plane-pull {
-        background-image: url("/img/screenshot_0004_planepull.jpg");
-        background-image: -webkit-image-set(url("/img/screenshot_0004_planepull.jpg") 1x, url("/img/screenshot_0004_planepull@2x.jpg") 2x);
-        background-image: image-set(url("/img/screenshot_0004_planepull.jpg") 1x, url("/img/screenshot_0004_planepull@2x.jpg") 2x); } }
+        background-image: -webkit-gradient(linear, right top, left top, from(rgba(145, 38, 143, 0.85)), to(rgba(145, 38, 143, 0.85))), url("/img/screenshot_0004_planepull.jpg");
+        background-image: -webkit-linear-gradient(right, rgba(145, 38, 143, 0.85) 0%, rgba(145, 38, 143, 0.85) 100%), url("/img/screenshot_0004_planepull.jpg");
+        background-image: linear-gradient(to left, rgba(145, 38, 143, 0.85) 0%, rgba(145, 38, 143, 0.85) 100%), url("/img/screenshot_0004_planepull.jpg");
+        background-image: -webkit-gradient(linear, right top, left top, from(rgba(145, 38, 143, 0.85)), to(rgba(145, 38, 143, 0.85))), image-set(url("/img/screenshot_0004_planepull.jpg") 1x, url("/img/screenshot_0004_planepull@2x.jpg") 2x);
+        background-image: -webkit-linear-gradient(right, rgba(145, 38, 143, 0.85) 0%, rgba(145, 38, 143, 0.85) 100%), -webkit-image-set(url("/img/screenshot_0004_planepull.jpg") 1x, url("/img/screenshot_0004_planepull@2x.jpg") 2x);
+        background-image: linear-gradient(to left, rgba(145, 38, 143, 0.85) 0%, rgba(145, 38, 143, 0.85) 100%), image-set(url("/img/screenshot_0004_planepull.jpg") 1x, url("/img/screenshot_0004_planepull@2x.jpg") 2x); } }
   .sample-block--trueblue {
-    background-image: url("/img/screenshot_0000_trueblue@0,5x.jpg");
-    background-image: -webkit-image-set(url("/img/screenshot_0000_trueblue@0,5x.jpg") 1x, url("/img/screenshot_0000_trueblue.jpg") 2x);
-    background-image: image-set(url("/img/screenshot_0000_trueblue@0,5x.jpg") 1x, url("/img/screenshot_0000_trueblue.jpg") 2x); }
+    background-image: -webkit-gradient(linear, right top, left top, from(rgba(145, 38, 143, 0.85)), to(rgba(145, 38, 143, 0.85))), url("/img/screenshot_0000_trueblue@0,5x.jpg");
+    background-image: -webkit-linear-gradient(right, rgba(145, 38, 143, 0.85) 0%, rgba(145, 38, 143, 0.85) 100%), url("/img/screenshot_0000_trueblue@0,5x.jpg");
+    background-image: linear-gradient(to left, rgba(145, 38, 143, 0.85) 0%, rgba(145, 38, 143, 0.85) 100%), url("/img/screenshot_0000_trueblue@0,5x.jpg");
+    background-image: -webkit-gradient(linear, right top, left top, from(rgba(145, 38, 143, 0.85)), to(rgba(145, 38, 143, 0.85))), image-set(url("/img/screenshot_0000_trueblue@0,5x.jpg") 1x, url("/img/screenshot_0000_trueblue.jpg") 2x);
+    background-image: -webkit-linear-gradient(right, rgba(145, 38, 143, 0.85) 0%, rgba(145, 38, 143, 0.85) 100%), -webkit-image-set(url("/img/screenshot_0000_trueblue@0,5x.jpg") 1x, url("/img/screenshot_0000_trueblue.jpg") 2x);
+    background-image: linear-gradient(to left, rgba(145, 38, 143, 0.85) 0%, rgba(145, 38, 143, 0.85) 100%), image-set(url("/img/screenshot_0000_trueblue@0,5x.jpg") 1x, url("/img/screenshot_0000_trueblue.jpg") 2x); }
     @media only screen and (min-width: 61em) {
       .sample-block--trueblue {
-        background-image: url("/img/screenshot_0000_trueblue.jpg");
-        background-image: -webkit-image-set(url("/img/screenshot_0000_trueblue.jpg") 1x, url("/img/screenshot_0000_trueblue@2x.jpg") 2x);
-        background-image: image-set(url("/img/screenshot_0000_trueblue.jpg") 1x, url("/img/screenshot_0000_trueblue@2x.jpg") 2x); } }
+        background-image: -webkit-gradient(linear, right top, left top, from(rgba(145, 38, 143, 0.85)), to(rgba(145, 38, 143, 0.85))), url("/img/screenshot_0000_trueblue.jpg");
+        background-image: -webkit-linear-gradient(right, rgba(145, 38, 143, 0.85) 0%, rgba(145, 38, 143, 0.85) 100%), url("/img/screenshot_0000_trueblue.jpg");
+        background-image: linear-gradient(to left, rgba(145, 38, 143, 0.85) 0%, rgba(145, 38, 143, 0.85) 100%), url("/img/screenshot_0000_trueblue.jpg");
+        background-image: -webkit-gradient(linear, right top, left top, from(rgba(145, 38, 143, 0.85)), to(rgba(145, 38, 143, 0.85))), image-set(url("/img/screenshot_0000_trueblue.jpg") 1x, url("/img/screenshot_0000_trueblue@2x.jpg") 2x);
+        background-image: -webkit-linear-gradient(right, rgba(145, 38, 143, 0.85) 0%, rgba(145, 38, 143, 0.85) 100%), -webkit-image-set(url("/img/screenshot_0000_trueblue.jpg") 1x, url("/img/screenshot_0000_trueblue@2x.jpg") 2x);
+        background-image: linear-gradient(to left, rgba(145, 38, 143, 0.85) 0%, rgba(145, 38, 143, 0.85) 100%), image-set(url("/img/screenshot_0000_trueblue.jpg") 1x, url("/img/screenshot_0000_trueblue@2x.jpg") 2x); } }
   .sample-block--punch {
-    background-image: url("/img/screenshot_0002_punchrva@0,5x.jpg");
-    background-image: -webkit-image-set(url("/img/screenshot_0002_punchrva@0,5x.jpg") 1x, url("/img/screenshot_0002_punchrva.jpg") 2x);
-    background-image: image-set(url("/img/screenshot_0002_punchrva@0,5x.jpg") 1x, url("/img/screenshot_0002_punchrva.jpg") 2x); }
+    background-image: -webkit-gradient(linear, right top, left top, from(rgba(145, 38, 143, 0.85)), to(rgba(145, 38, 143, 0.85))), url("/img/screenshot_0002_punchrva@0,5x.jpg");
+    background-image: -webkit-linear-gradient(right, rgba(145, 38, 143, 0.85) 0%, rgba(145, 38, 143, 0.85) 100%), url("/img/screenshot_0002_punchrva@0,5x.jpg");
+    background-image: linear-gradient(to left, rgba(145, 38, 143, 0.85) 0%, rgba(145, 38, 143, 0.85) 100%), url("/img/screenshot_0002_punchrva@0,5x.jpg");
+    background-image: -webkit-gradient(linear, right top, left top, from(rgba(145, 38, 143, 0.85)), to(rgba(145, 38, 143, 0.85))), image-set(url("/img/screenshot_0002_punchrva@0,5x.jpg") 1x, url("/img/screenshot_0002_punchrva.jpg") 2x);
+    background-image: -webkit-linear-gradient(right, rgba(145, 38, 143, 0.85) 0%, rgba(145, 38, 143, 0.85) 100%), -webkit-image-set(url("/img/screenshot_0002_punchrva@0,5x.jpg") 1x, url("/img/screenshot_0002_punchrva.jpg") 2x);
+    background-image: linear-gradient(to left, rgba(145, 38, 143, 0.85) 0%, rgba(145, 38, 143, 0.85) 100%), image-set(url("/img/screenshot_0002_punchrva@0,5x.jpg") 1x, url("/img/screenshot_0002_punchrva.jpg") 2x); }
     @media only screen and (min-width: 61em) {
       .sample-block--punch {
-        background-image: url("/img/screenshot_0002_punchrva.jpg");
-        background-image: -webkit-image-set(url("/img/screenshot_0002_punchrva.jpg") 1x, url("/img/screenshot_0002_punchrva@2x.jpg") 2x);
-        background-image: image-set(url("/img/screenshot_0002_punchrva.jpg") 1x, url("/img/screenshot_0002_punchrva@2x.jpg") 2x); } }
+        background-image: -webkit-gradient(linear, right top, left top, from(rgba(145, 38, 143, 0.85)), to(rgba(145, 38, 143, 0.85))), url("/img/screenshot_0002_punchrva.jpg");
+        background-image: -webkit-linear-gradient(right, rgba(145, 38, 143, 0.85) 0%, rgba(145, 38, 143, 0.85) 100%), url("/img/screenshot_0002_punchrva.jpg");
+        background-image: linear-gradient(to left, rgba(145, 38, 143, 0.85) 0%, rgba(145, 38, 143, 0.85) 100%), url("/img/screenshot_0002_punchrva.jpg");
+        background-image: -webkit-gradient(linear, right top, left top, from(rgba(145, 38, 143, 0.85)), to(rgba(145, 38, 143, 0.85))), image-set(url("/img/screenshot_0002_punchrva.jpg") 1x, url("/img/screenshot_0002_punchrva@2x.jpg") 2x);
+        background-image: -webkit-linear-gradient(right, rgba(145, 38, 143, 0.85) 0%, rgba(145, 38, 143, 0.85) 100%), -webkit-image-set(url("/img/screenshot_0002_punchrva.jpg") 1x, url("/img/screenshot_0002_punchrva@2x.jpg") 2x);
+        background-image: linear-gradient(to left, rgba(145, 38, 143, 0.85) 0%, rgba(145, 38, 143, 0.85) 100%), image-set(url("/img/screenshot_0002_punchrva.jpg") 1x, url("/img/screenshot_0002_punchrva@2x.jpg") 2x); } }
   .sample-block--polar-plunge {
-    background-image: url("/img/screenshot_0001_polarplunge@0,5x.jpg");
-    background-image: -webkit-image-set(url("/img/screenshot_0001_polarplunge@0,5x.jpg") 1x, url("/img/screenshot_0001_polarplunge.jpg") 2x);
-    background-image: image-set(url("/img/screenshot_0001_polarplunge@0,5x.jpg") 1x, url("/img/screenshot_0001_polarplunge.jpg") 2x); }
+    background-image: -webkit-gradient(linear, right top, left top, from(rgba(145, 38, 143, 0.85)), to(rgba(145, 38, 143, 0.85))), url("/img/screenshot_0001_polarplunge@0,5x.jpg");
+    background-image: -webkit-linear-gradient(right, rgba(145, 38, 143, 0.85) 0%, rgba(145, 38, 143, 0.85) 100%), url("/img/screenshot_0001_polarplunge@0,5x.jpg");
+    background-image: linear-gradient(to left, rgba(145, 38, 143, 0.85) 0%, rgba(145, 38, 143, 0.85) 100%), url("/img/screenshot_0001_polarplunge@0,5x.jpg");
+    background-image: -webkit-gradient(linear, right top, left top, from(rgba(145, 38, 143, 0.85)), to(rgba(145, 38, 143, 0.85))), image-set(url("/img/screenshot_0001_polarplunge@0,5x.jpg") 1x, url("/img/screenshot_0001_polarplunge.jpg") 2x);
+    background-image: -webkit-linear-gradient(right, rgba(145, 38, 143, 0.85) 0%, rgba(145, 38, 143, 0.85) 100%), -webkit-image-set(url("/img/screenshot_0001_polarplunge@0,5x.jpg") 1x, url("/img/screenshot_0001_polarplunge.jpg") 2x);
+    background-image: linear-gradient(to left, rgba(145, 38, 143, 0.85) 0%, rgba(145, 38, 143, 0.85) 100%), image-set(url("/img/screenshot_0001_polarplunge@0,5x.jpg") 1x, url("/img/screenshot_0001_polarplunge.jpg") 2x); }
     @media only screen and (min-width: 61em) {
       .sample-block--polar-plunge {
-        background-image: url("/img/screenshot_0001_polarplunge.jpg");
-        background-image: -webkit-image-set(url("/img/screenshot_0001_polarplunge.jpg") 1x, url("/img/screenshot_0001_polarplunge@2x.jpg") 2x);
-        background-image: image-set(url("/img/screenshot_0001_polarplunge.jpg") 1x, url("/img/screenshot_0001_polarplunge@2x.jpg") 2x); } }
+        background-image: -webkit-gradient(linear, right top, left top, from(rgba(145, 38, 143, 0.85)), to(rgba(145, 38, 143, 0.85))), url("/img/screenshot_0001_polarplunge.jpg");
+        background-image: -webkit-linear-gradient(right, rgba(145, 38, 143, 0.85) 0%, rgba(145, 38, 143, 0.85) 100%), url("/img/screenshot_0001_polarplunge.jpg");
+        background-image: linear-gradient(to left, rgba(145, 38, 143, 0.85) 0%, rgba(145, 38, 143, 0.85) 100%), url("/img/screenshot_0001_polarplunge.jpg");
+        background-image: -webkit-gradient(linear, right top, left top, from(rgba(145, 38, 143, 0.85)), to(rgba(145, 38, 143, 0.85))), image-set(url("/img/screenshot_0001_polarplunge.jpg") 1x, url("/img/screenshot_0001_polarplunge@2x.jpg") 2x);
+        background-image: -webkit-linear-gradient(right, rgba(145, 38, 143, 0.85) 0%, rgba(145, 38, 143, 0.85) 100%), -webkit-image-set(url("/img/screenshot_0001_polarplunge.jpg") 1x, url("/img/screenshot_0001_polarplunge@2x.jpg") 2x);
+        background-image: linear-gradient(to left, rgba(145, 38, 143, 0.85) 0%, rgba(145, 38, 143, 0.85) 100%), image-set(url("/img/screenshot_0001_polarplunge.jpg") 1x, url("/img/screenshot_0001_polarplunge@2x.jpg") 2x); } }
   .sample-block__heading {
     background-color: #ec008c;
     border-right: 1.875rem solid #bc1a8d;

@@ -1,8 +1,25 @@
+%content-block {
+  padding-left: $column-gutter / 2;
+  padding-right: $column-gutter / 2;
+}
+
 .content {
   &__heading {
+    @extend %content-block;
+
     color: $magenta;
     margin-bottom: $body-line-height;
-    padding-left: $column-gutter / 2;
-    padding-right: $column-gutter / 2;
+  }
+
+  &__subheading {
+    @extend %content-block;
+
+    color: $magenta;
+    margin-bottom: $body-line-height;
+    padding-top: $body-line-height;
+  }
+
+  p {
+    @extend %content-block;
   }
 }
