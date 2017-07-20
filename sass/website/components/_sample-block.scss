@@ -11,52 +11,52 @@
   padding-top: $body-line-height;
 
   &--cao-amazon {
-    background-image: linear-gradient(to left, $shade-purple 0%, $shade-purple 100%), url('/img/screenshot_0003_caoamazon@0,5x.jpg');
-    background-image: linear-gradient(to left, $shade-purple 0%, $shade-purple 100%), image-set(url('/img/screenshot_0003_caoamazon@0,5x.jpg') 1x, url('/img/screenshot_0003_caoamazon.jpg') 2x);
+    background-image: linear-gradient(to left, $shade-pale-green 0%, $shade-pale-green 100%), url('/img/screenshot_0003_caoamazon@0,5x.jpg');
+    background-image: linear-gradient(to left, $shade-pale-green 0%, $shade-pale-green 100%), image-set(url('/img/screenshot_0003_caoamazon@0,5x.jpg') 1x, url('/img/screenshot_0003_caoamazon.jpg') 2x);
 
     @media #{$desk-up} {
-      background-image: linear-gradient(to left, $shade-purple 0%, $shade-purple 100%), url('/img/screenshot_0003_caoamazon.jpg');
-      background-image: linear-gradient(to left, $shade-purple 0%, $shade-purple 100%), image-set(url('/img/screenshot_0003_caoamazon.jpg') 1x, url('/img/screenshot_0003_caoamazon@2x.jpg') 2x);
+      background-image: linear-gradient(to left, $shade-pale-green 0%, $shade-pale-green 100%), url('/img/screenshot_0003_caoamazon.jpg');
+      background-image: linear-gradient(to left, $shade-pale-green 0%, $shade-pale-green 100%), image-set(url('/img/screenshot_0003_caoamazon.jpg') 1x, url('/img/screenshot_0003_caoamazon@2x.jpg') 2x);
     }
   }
 
   &--plane-pull {
-    background-image: linear-gradient(to left, $shade-purple 0%, $shade-purple 100%), url('/img/screenshot_0004_planepull@0,5x.jpg');
-    background-image: linear-gradient(to left, $shade-purple 0%, $shade-purple 100%), image-set(url('/img/screenshot_0004_planepull@0,5x.jpg') 1x, url('/img/screenshot_0004_planepull.jpg') 2x);
+    background-image: linear-gradient(to left, $shade-pale-green 0%, $shade-pale-green 100%), url('/img/screenshot_0004_planepull@0,5x.jpg');
+    background-image: linear-gradient(to left, $shade-pale-green 0%, $shade-pale-green 100%), image-set(url('/img/screenshot_0004_planepull@0,5x.jpg') 1x, url('/img/screenshot_0004_planepull.jpg') 2x);
 
     @media #{$desk-up} {
-      background-image: linear-gradient(to left, $shade-purple 0%, $shade-purple 100%), url('/img/screenshot_0004_planepull.jpg');
-      background-image: linear-gradient(to left, $shade-purple 0%, $shade-purple 100%), image-set(url('/img/screenshot_0004_planepull.jpg') 1x, url('/img/screenshot_0004_planepull@2x.jpg') 2x);
+      background-image: linear-gradient(to left, $shade-pale-green 0%, $shade-pale-green 100%), url('/img/screenshot_0004_planepull.jpg');
+      background-image: linear-gradient(to left, $shade-pale-green 0%, $shade-pale-green 100%), image-set(url('/img/screenshot_0004_planepull.jpg') 1x, url('/img/screenshot_0004_planepull@2x.jpg') 2x);
     }
   }
 
   &--trueblue {
-    background-image: linear-gradient(to left, $shade-purple 0%, $shade-purple 100%), url('/img/screenshot_0000_trueblue@0,5x.jpg');
-    background-image: linear-gradient(to left, $shade-purple 0%, $shade-purple 100%), image-set(url('/img/screenshot_0000_trueblue@0,5x.jpg') 1x, url('/img/screenshot_0000_trueblue.jpg') 2x);
+    background-image: linear-gradient(to left, $shade-pale-green 0%, $shade-pale-green 100%), url('/img/screenshot_0000_trueblue@0,5x.jpg');
+    background-image: linear-gradient(to left, $shade-pale-green 0%, $shade-pale-green 100%), image-set(url('/img/screenshot_0000_trueblue@0,5x.jpg') 1x, url('/img/screenshot_0000_trueblue.jpg') 2x);
 
     @media #{$desk-up} {
-      background-image: linear-gradient(to left, $shade-purple 0%, $shade-purple 100%), url('/img/screenshot_0000_trueblue.jpg');
-      background-image: linear-gradient(to left, $shade-purple 0%, $shade-purple 100%), image-set(url('/img/screenshot_0000_trueblue.jpg') 1x, url('/img/screenshot_0000_trueblue@2x.jpg') 2x);
+      background-image: linear-gradient(to left, $shade-pale-green 0%, $shade-pale-green 100%), url('/img/screenshot_0000_trueblue.jpg');
+      background-image: linear-gradient(to left, $shade-pale-green 0%, $shade-pale-green 100%), image-set(url('/img/screenshot_0000_trueblue.jpg') 1x, url('/img/screenshot_0000_trueblue@2x.jpg') 2x);
     }
   }
 
   &--punch {
-    background-image: linear-gradient(to left, $shade-purple 0%, $shade-purple 100%), url('/img/screenshot_0002_punchrva@0,5x.jpg');
-    background-image: linear-gradient(to left, $shade-purple 0%, $shade-purple 100%), image-set(url('/img/screenshot_0002_punchrva@0,5x.jpg') 1x, url('/img/screenshot_0002_punchrva.jpg') 2x);
+    background-image: linear-gradient(to left, $shade-pale-green 0%, $shade-pale-green 100%), url('/img/screenshot_0002_punchrva@0,5x.jpg');
+    background-image: linear-gradient(to left, $shade-pale-green 0%, $shade-pale-green 100%), image-set(url('/img/screenshot_0002_punchrva@0,5x.jpg') 1x, url('/img/screenshot_0002_punchrva.jpg') 2x);
 
     @media #{$desk-up} {
-      background-image: linear-gradient(to left, $shade-purple 0%, $shade-purple 100%), url('/img/screenshot_0002_punchrva.jpg');
-      background-image: linear-gradient(to left, $shade-purple 0%, $shade-purple 100%), image-set(url('/img/screenshot_0002_punchrva.jpg') 1x, url('/img/screenshot_0002_punchrva@2x.jpg') 2x);
+      background-image: linear-gradient(to left, $shade-pale-green 0%, $shade-pale-green 100%), url('/img/screenshot_0002_punchrva.jpg');
+      background-image: linear-gradient(to left, $shade-pale-green 0%, $shade-pale-green 100%), image-set(url('/img/screenshot_0002_punchrva.jpg') 1x, url('/img/screenshot_0002_punchrva@2x.jpg') 2x);
     }
   }
 
   &--polar-plunge {
-    background-image: linear-gradient(to left, $shade-purple 0%, $shade-purple 100%), url('/img/screenshot_0001_polarplunge@0,5x.jpg');
-    background-image: linear-gradient(to left, $shade-purple 0%, $shade-purple 100%), image-set(url('/img/screenshot_0001_polarplunge@0,5x.jpg') 1x, url('/img/screenshot_0001_polarplunge.jpg') 2x);
+    background-image: linear-gradient(to left, $shade-pale-green 0%, $shade-pale-green 100%), url('/img/screenshot_0001_polarplunge@0,5x.jpg');
+    background-image: linear-gradient(to left, $shade-pale-green 0%, $shade-pale-green 100%), image-set(url('/img/screenshot_0001_polarplunge@0,5x.jpg') 1x, url('/img/screenshot_0001_polarplunge.jpg') 2x);
 
     @media #{$desk-up} {
-      background-image: linear-gradient(to left, $shade-purple 0%, $shade-purple 100%), url('/img/screenshot_0001_polarplunge.jpg');
-      background-image: linear-gradient(to left, $shade-purple 0%, $shade-purple 100%), image-set(url('/img/screenshot_0001_polarplunge.jpg') 1x, url('/img/screenshot_0001_polarplunge@2x.jpg') 2x);
+      background-image: linear-gradient(to left, $shade-pale-green 0%, $shade-pale-green 100%), url('/img/screenshot_0001_polarplunge.jpg');
+      background-image: linear-gradient(to left, $shade-pale-green 0%, $shade-pale-green 100%), image-set(url('/img/screenshot_0001_polarplunge.jpg') 1x, url('/img/screenshot_0001_polarplunge@2x.jpg') 2x);
     }
   }
 
