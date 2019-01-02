@@ -1,6 +1,7 @@
 const taglines = [
     'I write the SASS that makes the whole world sing.',
-    'I love to listen. I love to teach.'
+    'I love to listen. I love to teach.',
+    'I specialize in metaphor.'
 ]
 
 const s = {
