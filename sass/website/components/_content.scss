@@ -8,6 +8,7 @@
     @extend %content-block;
 
     color: $magenta;
+	line-height: $body-line-height * 2;
     margin-bottom: $body-line-height;
   }
 
