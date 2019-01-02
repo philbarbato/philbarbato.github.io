@@ -1,47 +1,45 @@
 {
-  "name": "SiteName",
-  "version": "0.0.0",
-  "description": "A website from Punch",
-  "main": "../index.php",
-  "dependencies": {
-    "gulp": "*"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/PunchRVA/starterfiles.git"
-  },
-  "author": "Punch",
-  "license": "ISC",
-  "devDependencies": {
-    "autoprefixer": "*",
-    "del": "*",
-    "gulp-cache": "*",
-    "gulp-clean-css": "*",
-    "gulp-concat": "*",
-    "gulp-imagemin": "*",
-    "gulp-jshint": "*",
-    "gulp-livereload": "*",
-    "gulp-notify": "*",
-    "gulp-postcss": "*",
-    "gulp-read": "0.0.1",
-    "gulp-rename": "*",
-    "gulp-sass": "*",
-    "gulp-sass-lint": "*",
-    "gulp-uglify": "*",
-    "jshint": "2.8.0",
-    "node-sass": "*"
-  },
-  "database": "",
-  "browserslist": [
-    "last 2 versions",
-    "safari 5",
-    "ie 8",
-    "ie 9",
-    "opera 12.1",
-    "ios 6",
-    "android 4"
-  ]
+    "name": "barbato.space",
+    "version": "1.0.0",
+    "description": "Phil Barbato's portfolio website",
+    "main": "../index.php",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:philbarbato/philbarbato.github.io.git"
+    },
+    "author": "Phil Barbato",
+    "license": "ISC",
+    "scripts": {
+        "dev": "npm run development",
+        "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch-poll": "npm run watch -- --watch-poll",
+        "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "prod": "npm run production",
+        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "visual:crawl:local": "node test/visual/config/shared/crawl-local.js",
+        "visual:crawl:staging": "node test/visual/config/shared/crawl-staging.js",
+        "visual:reference:local": "backstop reference --config=test/visual/config/shared/local-config.js",
+        "visual:reference:staging": "backstop reference --config=test/visual/config/shared/local-config.js",
+        "visual:test:local": "backstop test --config=test/visual/config/shared/local-config.js",
+        "visual:test:staging": "backstop test --config=test/visual/config/shared/staging-config.js",
+        "load:live": "artillery run -e live loadtest.yml",
+        "load:test": "artillery run -e test loadtest.yml",
+        "load:dev": "artillery run -e dev loadtest.yml",
+        "load:local": "artillery run -e local loadtest.yml",
+        "load:dino": "artillery dino"
+    },
+    "devDependencies": {
+        "artillery": "^1.5.2",
+        "backstopjs": "^3.2.18",
+        "browser-sync": "^2.26.3",
+        "browser-sync-webpack-plugin": "^2.0.1",
+        "copy-webpack-plugin": "^4.6.0",
+        "cross-env": "^5.2.0",
+        "imagemin-mozjpeg": "^8.0.0",
+        "imagemin-webpack-plugin": "^2.3.0",
+        "laravel-mix": "2.1.*",
+        "laravel-mix-svg-sprite": "0.0.1",
+        "simplecrawler": "^1.1.6"
+    }
 }
