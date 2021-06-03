@@ -4,18 +4,193 @@
 <head>
   <meta charset="utf-8">
 
-  <title>Phil Barbato is making the world better, one pixel at a time.</title>
-  <meta name="description" content="Phil Barbato is a web developer from the old, dark days. When Flash intros were the new hotness and flexbox was but a pipe-dream. Ask him about frames sometime.">
+  <title>Phil Barbato is an artist who makes things</title>
+  <meta name="description" content="Phil Barbato is an artist who makes physical objects and music. Currently, Phil is expanding his woodworking and carpentry skills with client and personal projects. Phil also makes plush and occasionally releases some music.">
   <meta name="author" content="Phil Barbato">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" href="/css/website/website.css" />
+  <!-- <link rel="stylesheet" href="/css/website/website.css" /> -->
 
-  <script src="/js/lib/modernizr.js"></script>
+  <!-- <script src="/js/lib/modernizr.js"></script> -->
+  
+  <style>
+    /* @import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,700;1,400;1,700&display=swap'); */
+    
+    :root {
+      --transition-time: 200ms;
+    }
+    
+    * {
+      box-sizing: border-box;
+      color: inherit;
+      font-family: inherit;
+    }
+    
+    html {
+      min-height: 100vh;
+    }
+        
+    body {
+      background-attachment: fixed;
+      background-color: white;
+      background-image: linear-gradient(155deg, lightyellow 0, lavenderblush 100vh);
+      background-size: cover;
+      font-family: system-ui;
+      font-size: 16px;
+      line-height: 24px;
+      margin: 0;
+      min-height: calc(100vh -128px);
+      padding-top: 128px;
+    }
+    
+    a {
+      color: blue;
+      transition: color var(--transition-time) ease;
+    }
+    
+    a:hover,
+    a:focus {
+      color: dodgerblue;
+    }
+    
+    strong {
+      font-weight: 700;
+    }
+    
+    em {
+      font-style: italic;
+    }
+    
+    .header-main {
+      background-color: azure;
+      /* background-image: url('img/cloods.png');
+      background-position: center bottom;
+ <img src="" alt="">  background-size: auto 90%;
+      background-repeat: repeat-x; */
+      border-bottom-color: lightcyan;
+      border-bottom-style: solid;
+      border-bottom-width: 8px;
+      box-shadow: 0 -16px 16px 8px rebeccapurple;
+      height: 128px;
+      left: 0;
+      padding-top: 16px;
+      position: fixed;
+      text-align: center;
+      top: 0;
+      width: 100%;
+      z-index: 10;
+    }
+    
+    .header-main__heading {
+      color: navy;
+      font-size: 64px;
+      font-weight: 500;
+      line-height: 64px;
+      margin: 0;
+      text-shadow: -3px -1px deeppink, 4px 1px yellow;
+    }
+    
+    .nav-main__link {
+      display: inline-block;
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+    
+    /* .nav-main__link:visited {
+      color: purple;
+    } */
+    
+    .jump-anchor {
+      height: 0;
+      opacity: 0;
+      position: absolute;
+      top: -128px;
+      width: 0;
+      z-index: -2;
+    }
+    
+    .container {
+      display: grid;
+      grid-template-columns: minmax(16px, 16%) auto minmax(16px, 16%);
+      grid-template-rows: 100%;
+      padding-top: 16px;
+      position: relative;
+      width: 100%;
+    }
+    
+    .container__section {
+      box-shadow: 1px 1px 0 1px lavender, -1px -1px 0 1px white, 8px 8px 16px -8px rebeccapurple;
+      padding: 32px;
+      position: relative;
+      margin-bottom: 32px;
+      margin-top: 16px;
+    }
+    
+    .container__section::before {
+      background-image: linear-gradient(155deg, azure -10%, cyan 600%);
+      bottom: 0;
+      border-color: azure lightcyan lightcyan azure;
+      border-style: solid;
+      border-width: 8px;
+      content: '';
+      left: 0;
+      position: absolute;
+      right: 0;
+      top: 0;
+      z-index: -1;
+    }
+    
+    .container__heading,
+    .container__subheading {
+      color: navy;
+      font-weight: 600;
+      margin-bottom: 8px;
+      margin-top: 0;
+      position: relative;
+      text-shadow: -1px -1px pink, 1px 1px yellow;
+    }
+    
+    .container__heading {
+      border-bottom: 1px solid lavender;
+      box-shadow: 0 1px white;
+      font-size: 32px;
+      margin-bottom: 31px;
+      padding-bottom: 16px;
+    }
+    
+    .container__subheading {
+      color: rebeccapurple;
+      font-size: 24px;
+    }
+    
+    .container__image-grid {
+      display: grid;
+      grid-auto-rows: 1fr;
+      grid-gap: 16px;
+      grid-template-columns: repeat(auto-fill, minmax(256px, 1fr));
+      margin-bottom: 32px;
+    }
+        
+    .container__image-box {
+      line-height: 0;
+      position: relative;
+    }
+    
+    .container__image-box > img {
+      width: 100%;
+      margin: 0;
+    }
+    
+    .container__morelink {
+      text-align: right;
+      margin-bottom: 16px;
+    }
+    
+    .container__image-grid + .container__morelink {
+      margin-top: -16px;
+    }
+  </style>
 
-  <!--[if lt IE 9]>
-  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
 </head>
 
 <body>
@@ -24,268 +199,100 @@
 
     <h1 class="header-main__heading">Phil Barbato</h1>
 
-    <nav class="header-main__nav">
-      <a href="phil_barbato_resume.pdf" class="header-main__nav-link" rel="help" target="_blank">Résumé</a>
-      <a href="mailto:phil.barbato@protonmail.com?subject=You%20seem%20like%20a%20swell%20person%20and%20i%20would%20like%20to%20hire%20you%20for%20this%20amazing%20job&amp;body=I%20have%20also%20deduced%20that%20you%20are%20charming%20and%20possess%20unparallelled%20talent.%20" class="header-main__nav-link" rel="help">Contact</a>
+    <nav class="nav-main">
+      <a href="#woodworking" class="nav-main__link">Woodworking</a>
+      <a href="#plush" class="nav-main__link">Plush</a>
+      <a href="#music" class="nav-main__link">Music</a>
+      <!-- <a href="#video" class="nav-main__link">Video</a> -->
+      <a href="mailto:phil.barbato@protonmail.com?subject=Hello%20Phil%20I%20am%20contacting%20you%20from%20your%20internet%20web%20site&body=I%20have%20also%20deduced%20that%20you%20are%20charming%20and%20possess%20unparallelled%20talent.%20" class="nav-main__link" rel="help">Contact &rarr;</a>
     </nav>
 
   </header>
 
   <div class="container">
-
-    <nav class="nav-main">
-      <h2 class="nav-main__heading">Web Development</h2>
-      <!-- <a href="#apparent" class="nav-main__link">Apparent Insurance</a>
-      <a href="#cep" class="nav-main__link">City Energy Project</a> -->
-      <a href="#cov" class="nav-main__link">Covenant Woods</a>
-      <a href="#expeditions" class="nav-main__link">Expedition Expeditions</a>
-      <a href="#mericle" class="nav-main__link">Mericle</a>
-      <a href="#riverrock" class="nav-main__link">Riverrock</a>
-      <a href="#fastforward" class="nav-main__link">FastForward</a>
-      <a href="#cao-amazon" class="nav-main__link">CAO Amazon</a>
-      <a href="#plane-pull" class="nav-main__link">Plane Pull</a>
-      <a href="#trueblue" class="nav-main__link">TrueBlue</a>
-      <a href="#polar-plunge" class="nav-main__link">Polar Plunge</a>
-      <a href="#punch" class="nav-main__link">Punch</a>
-    </nav>
+    <div class="left-sidebar"></div>
 
     <div class="content">
 
-      <h1 class="content__heading bem-is-so-fun__isnt-it">Fresh internet since 1999.</h1>
-
-      <!-- <section id="apparent" class="sample-block sample-block--apparent">
-        <div class="sample-block__meta">
-          <h2 class="sample-block__heading">Apparent Insurance</h2>
-          <a href="https://www.apparentinsurance.com/" class="sample-block__link" target="_blank">apparentinsurance.com</a>
-          <ul class="sample-block__list">
-            <li class="sample-block__item">HTML</li>
-            <li class="sample-block__item">CSS</li>
-            <li class="sample-block__item">JavaScript</li>
-            <li class="sample-block__item">WordPress</li>
-          </ul>
+      <section class="container__section">
+        <a class="jump-anchor" id="woodworking"></a>
+        <h2 class="container__heading">Woodworking</h2>
+        <h3 class="container__subheading">Charcuterie Boards</h3>
+        <div class="container__image-grid">
+          <div class="container__image-box">
+            <img src="img/charcuterie-boards/DSC_0021.jpeg" alt="shallow focus hands adding oil to a charcuterie board with a rag">
+          </div>
+          <div class="container__image-box">
+            <img src="img/charcuterie-boards/DSC_0039.jpeg" alt="">
+          </div>
+          <div class="container__image-box">
+            <img src="img/charcuterie-boards/DSC_0031.jpeg" alt="">
+          </div>
         </div>
-        <div class="sample-block__description">
-          <p></p>
+        <div class="container__morelink">
+          <a href="https://www.etsy.com/shop/philbarbato?section_id=33794641" title="Buy charcuterie boards on Etsy">Buy &rarr;</a>
+        </div>
+        <!-- <h3 class="container__subheading">Cutting Boards</h3> -->
+        <!-- <h3 class="container__subheading">Ottoman Trays</h3> -->
+        <h3 class="container__subheading">Custom Shelves & Cabinets</h3>
+        <div class="container__image-grid">
+          <div class="container__image-box">
+            <img src="img/shelves-cabinets/IMG_3649.jpeg" alt="digital rendering of a shelf unit">
+          </div>
+          <div class="container__image-box">
+            <img src="img/shelves-cabinets/IMG_3757.jpeg" alt="">
+          </div>
+          <div class="container__image-box">
+            <img src="img/shelves-cabinets/IMG_3886.jpeg" alt="">
+          </div>
+        </div>
+        <div class="container__morelink">
+          <a href="mailto:phil.barbato@protonmail.com?subject=Let%27s%20talk%20about%20custom%20shelves%20and%20cabinets">Contact for more info &rarr;</a>
+        </div>
+
+        
+      </section>
+      
+      <section class="container__section">
+        <a class="jump-anchor" id="plush"></a>
+        <h2 class="container__heading">Plush</h2>
+        <div class="container__image-grid">
+          <div class="container__image-box">
+            <img src="img/plush/baby-ape.jpeg" alt="small plush ape in a window scene">
+          </div>
+          <div class="container__image-box">
+            <img src="img/plush/rainbow-baby-yak.jpeg" alt="small plush yak made of rainbow faux fur">
+          </div>
+          <div class="container__image-box">
+            <img src="img/plush/tiny-octopus.jpeg" alt="small plush octopus made of blue fleece">
+          </div>
+        </div>
+        <div class="container__morelink">
+          <a href="https://flickr.com/photos/philbarbato/albums/72157594587468258">See more &rarr;</a>
         </div>
       </section>
-
-
-      <section id="cep" class="sample-block sample-block--cep">
-        <div class="sample-block__meta">
-          <h2 class="sample-block__heading">The City Energy Project</h2>
-          <a href="https://www.cityenergyproject.org/" class="sample-block__link" target="_blank">cityenergyproject.org</a>
-          <ul class="sample-block__list">
-            <li class="sample-block__item">HTML</li>
-            <li class="sample-block__item">CSS</li>
-            <li class="sample-block__item">JavaScript</li>
-            <li class="sample-block__item">WordPress</li>
-          </ul>
-        </div>
-        <div class="sample-block__description">
-          <p></p>
-        </div>
-      </section> -->
-
-
-      <section id="cov" class="sample-block sample-block--cov">
-        <div class="sample-block__meta">
-          <h2 class="sample-block__heading">Covenant Woods</h2>
-          <a href="https://covenantwoods.com/" class="sample-block__link" target="_blank">covenantwoods.com</a>
-          <ul class="sample-block__list">
-            <li class="sample-block__item">HTML</li>
-            <li class="sample-block__item">CSS</li>
-            <li class="sample-block__item">JavaScript</li>
-            <li class="sample-block__item">WordPress</li>
-          </ul>
-        </div>
-        <div class="sample-block__description">
-          <p>A ground-up redesign for a continuing care retirement community to match their level of quality and class. The interactive campus map directly serves the client's goal to increase engagement and conversion by educating prospective residents and family members.</p>
-        </div>
+      
+      <section class="container__section">
+        <a class="jump-anchor" id="music"></a>
+        <h2 class="container__heading">Music</h2>
+        <p>
+          <a href="https://philbarbato.bandcamp.com">BandCamp</a>
+        </p>
+        <p>
+          <a href="https://soundcloud.com/philbarbato">SoundCloud</a>
+        </p>
       </section>
-
-
-      <section id="expeditions" class="sample-block sample-block--expeditions">
-        <div class="sample-block__meta">
-          <h2 class="sample-block__heading">Game Guy's Expedition Expeditions</h2>
-          <a href="https://gameguysexpeditionexpeditions.com/" class="sample-block__link" target="_blank">gameguysexpeditionexpeditions.com</a>
-          <ul class="sample-block__list">
-            <li class="sample-block__item">HTML</li>
-            <li class="sample-block__item">CSS</li>
-            <li class="sample-block__item">Vue.js</li>
-          </ul>
-        </div>
-        <div class="sample-block__description">
-          <p>After the success of Game Guy's Dash, the Lottery asked COLAB to build a new game for the 2018 summer campaign. In addition to front-end dev, I created original music for the game.</p>
-        </div>
-      </section>
-
-
-      <section id="mericle" class="sample-block sample-block--mericle">
-        <div class="sample-block__meta">
-          <h2 class="sample-block__heading">Mericle Commercial Real Estate Services</h2>
-          <a href="https://www.mericle.com/" class="sample-block__link" target="_blank">mericle.com</a>
-          <ul class="sample-block__list">
-            <li class="sample-block__item">HTML</li>
-            <li class="sample-block__item">CSS</li>
-            <li class="sample-block__item">JavaScript</li>
-            <li class="sample-block__item">Vue.js</li>
-            <li class="sample-block__item">WordPress</li>
-          </ul>
-        </div>
-        <div class="sample-block__description">
-          <p>A site built to showcase Mericle's portfolio of commercial real estate in Northeastern Pennsylvania. A searchable and sortable property list and map encourages exploration, and helps brokers find exactly what they're looking for.</p>
-        </div>
-      </section>
-
-
-      <section id="riverrock" class="sample-block sample-block--riverrock">
-        <div class="sample-block__meta">
-          <h2 class="sample-block__heading">Dominion Energy Riverrock</h2>
-          <a href="https://www.riverrockrva.com/" class="sample-block__link" target="_blank">riverrockrva.com</a>
-          <ul class="sample-block__list">
-            <li class="sample-block__item">HTML</li>
-            <li class="sample-block__item">CSS</li>
-            <li class="sample-block__item">JavaScript</li>
-            <li class="sample-block__item">WordPress</li>
-          </ul>
-        </div>
-        <div class="sample-block__description">
-          <p>A new site launched in coordination with the event's fresh rebranding. I pulled off some new tricks with CSS and SVG on this one.</p>
-        </div>
-      </section>
-
-
-      <section id="fastforward" class="sample-block sample-block--fastforward">
-        <div class="sample-block__meta">
-          <h2 class="sample-block__heading">FastForward Virginia</h2>
-          <a href="https://www.fastforwardva.org/" class="sample-block__link" target="_blank">fastforwardva.org</a>
-          <ul class="sample-block__list">
-            <li class="sample-block__item">HTML</li>
-            <li class="sample-block__item">CSS</li>
-            <li class="sample-block__item">JavaScript</li>
-            <li class="sample-block__item">WordPress</li>
-          </ul>
-        </div>
-        <div class="sample-block__description">
-          <p>A website built to promote the new workforce development program from Virginia’s Community Colleges. The dynamic shape of the logo inspired design elements and challenged my skills with CSS and SVG.</p>
-        </div>
-      </section>
-
-
-      <section id="cao-amazon" class="sample-block sample-block--cao-amazon">
-        <div class="sample-block__meta">
-          <h2 class="sample-block__heading">Cao Amazon Trilogy Digital Campaign</h2>
-          <a href="http://caoamazon.com" class="sample-block__link" target="_blank">caoamazon.com</a>
-          <ul class="sample-block__list">
-            <li class="sample-block__item">HTML</li>
-            <li class="sample-block__item">CSS</li>
-            <li class="sample-block__item">JavaScript</li>
-            <li class="sample-block__item">Statamic</li>
-          </ul>
-        </div>
-        <div class="sample-block__description">
-          <p>A collection of landing pages built to support a launch campaign for General Cigar's CAO Amazon Trilogy mark expansion. Full of all kinds of scroll-jacking whiz-bangery, hand-coded in vanilla JavaScript by yours truly.</p>
-        </div>
-      </section>
-
-
-      <section id="plane-pull" class="sample-block sample-block--plane-pull">
-        <div class="sample-block__meta">
-          <h2 class="sample-block__heading">Dulles Day Plane Pull</h2>
-          <a href="http://planepull.com" class="sample-block__link" target="_blank">planepull.com</a>
-          <ul class="sample-block__list">
-            <li class="sample-block__item">HTML</li>
-            <li class="sample-block__item">CSS</li>
-            <li class="sample-block__item">JavaScript</li>
-            <li class="sample-block__item">ExpressionEngine</li>
-          </ul>
-        </div>
-        <div class="sample-block__description">
-          <p>A full redesign of the informational site for Special Olympics Virginia's Plane Pull fundraising event. Peep that fancy fixed navigation as you scroll down the page. So elegant!</p>
-        </div>
-      </section>
-
-
-      <section id="trueblue" class="sample-block sample-block--trueblue">
-        <div class="sample-block__meta">
-          <h2 class="sample-block__heading">TrueBlue Rewards Microsite</h2>
-          <a href="https://trueblue.bcbsga.com" class="sample-block__link" target="_blank">trueblue.bcbsga.com</a>
-          <ul class="sample-block__list">
-            <li class="sample-block__item">HTML</li>
-            <li class="sample-block__item">CSS</li>
-            <li class="sample-block__item">JavaScript</li>
-            <li class="sample-block__item">Statamic</li>
-          </ul>
-        </div>
-        <div class="sample-block__description">
-          <p>A site created to help account reps convey monthly reward program totals and incentives to their client brokerages. Secrets are meant to be kept (and HIPAA is no joke), so proprietary info is under lock and key. Redacted screenshots available on request.</p>
-        </div>
-      </section>
-
-
-      <section id="polar-plunge" class="sample-block sample-block--polar-plunge">
-        <div class="sample-block__meta">
-          <h2 class="sample-block__heading">Polar Plunge Fesival</h2>
-          <a href="http://polarplunge.com" class="sample-block__link" target="_blank">polarplunge.com</a>
-          <ul class="sample-block__list">
-            <li class="sample-block__item">HTML</li>
-            <li class="sample-block__item">CSS</li>
-            <li class="sample-block__item">JavaScript</li>
-            <li class="sample-block__item">ExpressionEngine</li>
-          </ul>
-        </div>
-        <div class="sample-block__description">
-          <p>A full redesign of the informational site for Special Olympics Virginia's Polar Plunge fundraising event. This is SOVA's largest event and 2017 was the 25th anniversary. So we wanted to do something real nice for them. 😚👌</p>
-        </div>
-      </section>
-
-
-      <section id="punch" class="sample-block sample-block--punch">
-        <div class="sample-block__meta">
-          <h2 class="sample-block__heading">Punch</h2>
-          <a href="http://punchrva.com" class="sample-block__link" target="_blank">punchrva.com</a>
-          <ul class="sample-block__list">
-            <li class="sample-block__item">HTML</li>
-            <li class="sample-block__item">CSS</li>
-            <li class="sample-block__item">JavaScript</li>
-            <li class="sample-block__item">Statamic</li>
-            <li class="sample-block__item">Video Production</li>
-          </ul>
-        </div>
-        <div class="sample-block__description">
-          <p>I'll be the first to admit, there are some opportunities for improvement. But we managed to squeeze out a sweet little site between paying gigs. The cobblers kids have no shoes, amirite?</p>
-        </div>
-      </section>
-
     </div>
+      
+    <div class="right-sidebar"></div>
   </div>
 
 
-  <script src="/js/lib/classList.min.js"></script>
+  <!-- <script src="/js/lib/classList.min.js"></script>
 
-  <script src="/js/app.js"></script>
+  <script src="/js/app.js"></script> -->
 
 
-
-  <!-- via: https://github.com/chuckcarpenter/REM-unit-polyfill -->
-  <!--[if lte IE 9]>
-  {{ theme:js src="rem.min" tag="true" }}
-  <![endif]-->
-
-  <script>
-    var loc = document.location.host
-    if (
-        loc.slice(0,2) == "d." ||
-        loc.slice(0,3) == "10." ||
-        loc.slice(-6) == ".local" ||
-        document.location.host.slice(0,9) == "localhost"
-        ) {
-          var s = document.createElement('script');
-          loc = loc.search(':') > 0 ? loc.split(':')[0] : loc
-          s.src = "//"+loc+":35729/livereload.js";
-          document.body.appendChild(s);
-        }
-  </script>
 
 </body>
 </html>
