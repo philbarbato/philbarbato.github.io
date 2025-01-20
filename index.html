@@ -13,6 +13,10 @@
 
   <!-- <script src="/js/lib/modernizr.js"></script> -->
   
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Coiny&display=swap" rel="stylesheet">
+  
   <style>
     /* @import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,700;1,400;1,700&display=swap'); */
     
@@ -33,7 +37,7 @@
     body {
       background-attachment: fixed;
       background-color: white;
-      background-image: linear-gradient(155deg, lightyellow 0, lavenderblush 100vh);
+      background-image: linear-gradient(155deg, LemonChiffon 0, lavenderblush 100vh);
       background-size: cover;
       font-family: system-ui;
       font-size: 16px;
@@ -61,16 +65,36 @@
       font-style: italic;
     }
     
+    hr {
+      border: none;
+      border-top: 1px solid lavender;
+      border-bottom: 1px solid white;
+      color: LightSkyBlue;
+      height: 0;
+      margin: 32px 0 48px;
+      overflow: visible;
+      text-align: center;
+    }
+    
+    hr::after {
+      background-image: linear-gradient(155deg, azure -10%, cyan 600%);
+      border-bottom: 1px solid white;
+      border-radius: 3px;
+      border-top: 1px solid lavender;
+      content: '💖';
+      padding: 6px;
+      position: relative;
+      top: -13px;
+    }    
     .header-main {
-      background-color: azure;
-      /* background-image: url('img/cloods.png');
-      background-position: center bottom;
- <img src="" alt="">  background-size: auto 90%;
-      background-repeat: repeat-x; */
-      border-bottom-color: lightcyan;
+      background-color: MediumSlateBlue;
+      background-image: url('img/blurry_brick.jpg');
+      background-position: center fixed;
+      background-size: 100% auto;
+      border-bottom-color: white;
       border-bottom-style: solid;
-      border-bottom-width: 8px;
-      box-shadow: 0 -16px 16px 8px rebeccapurple;
+      border-bottom-width: 2px;
+      box-shadow: 0 0 2px 2px white, inset 0 -8px 16px 0 indigo;
       height: 128px;
       left: 0;
       padding-top: 16px;
@@ -82,15 +106,18 @@
     }
     
     .header-main__heading {
-      color: navy;
-      font-size: 64px;
-      font-weight: 500;
+      color: LemonChiffon;
+      font-family: "Coiny", serif;
       line-height: 64px;
+      font-size: 64px;
+      font-style: normal;
+      font-weight: 400;
       margin: 0;
-      text-shadow: -3px -1px deeppink, 4px 1px yellow;
+      text-shadow: -4px -3px CornflowerBlue, 4px 3px Violet;
     }
     
     .nav-main__link {
+      color: lavenderblush;
       display: inline-block;
       padding-left: 8px;
       padding-right: 8px;
@@ -200,9 +227,9 @@
     <h1 class="header-main__heading">Phil Barbato</h1>
 
     <nav class="nav-main">
+      <a href="#music" class="nav-main__link">Music</a>
       <a href="#woodworking" class="nav-main__link">Woodworking</a>
       <a href="#plush" class="nav-main__link">Plush</a>
-      <a href="#music" class="nav-main__link">Music</a>
       <!-- <a href="#video" class="nav-main__link">Video</a> -->
       <a href="mailto:phil.barbato@protonmail.com?subject=Hello%20Phil%20I%20am%20contacting%20you%20from%20your%20internet%20web%20site&body=I%20have%20also%20deduced%20that%20you%20are%20charming%20and%20possess%20unparallelled%20talent.%20" class="nav-main__link" rel="help">Contact &rarr;</a>
     </nav>
@@ -213,6 +240,25 @@
     <div class="left-sidebar"></div>
 
     <div class="content">
+
+      <section class="container__section">
+        <a class="jump-anchor" id="music"></a>
+        <h2 class="container__heading">Music</h2>
+        <p>Find my releases on all your favorite streaming platforms. I live stream VCV Rack music and ambient sounds 7pm EST Tuesdays on <a href="https://www.youtube.com/@philbarbato">YouTube</a> and 7pm EST Thursdays on <a href="https://www.twitch.tv/philbarbato">Twitch</a>. I often do spontaneous streams on other days too. <a href="https://bsky.app/profile/phil.barbato.space">Follow me on BlueSky</a> to find out when.</p>
+        <hr>
+        <p>
+          <a href="https://www.youtube.com/@philbarbato">YouTube</a>
+        </p>
+        <p>
+          <a href="https://www.twitch.tv/philbarbato">Twitch</a>
+        </p>
+        <p>
+          <a href="https://philbarbato.bandcamp.com">BandCamp</a>
+        </p>
+        <p>
+          <a href="https://soundcloud.com/philbarbato">SoundCloud</a>
+        </p>
+      </section>
 
       <section class="container__section">
         <a class="jump-anchor" id="woodworking"></a>
@@ -229,9 +275,9 @@
             <img src="img/charcuterie-boards/DSC_0031.jpeg" alt="">
           </div>
         </div>
-        <div class="container__morelink">
+        <!-- <div class="container__morelink">
           <a href="https://www.etsy.com/shop/philbarbato?section_id=33794641" title="Buy charcuterie boards on Etsy">Buy &rarr;</a>
-        </div>
+        </div> -->
         <!-- <h3 class="container__subheading">Cutting Boards</h3> -->
         <!-- <h3 class="container__subheading">Ottoman Trays</h3> -->
         <h3 class="container__subheading">Custom Shelves & Cabinets</h3>
@@ -272,16 +318,6 @@
         </div>
       </section>
       
-      <section class="container__section">
-        <a class="jump-anchor" id="music"></a>
-        <h2 class="container__heading">Music</h2>
-        <p>
-          <a href="https://philbarbato.bandcamp.com">BandCamp</a>
-        </p>
-        <p>
-          <a href="https://soundcloud.com/philbarbato">SoundCloud</a>
-        </p>
-      </section>
     </div>
       
     <div class="right-sidebar"></div>
