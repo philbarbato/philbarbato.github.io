@@ -69,6 +69,7 @@
       border: none;
       border-top: 1px solid lavender;
       border-bottom: 1px solid white;
+      clear: both;
       color: LightSkyBlue;
       height: 0;
       margin: 32px 0 48px;
@@ -85,7 +86,67 @@
       padding: 6px;
       position: relative;
       top: -13px;
-    }    
+    }
+    
+    .float-block {
+      // initially for images in body copy
+      display: inline-block;
+      margin-bottom: 32px;
+    }
+    
+    .float-block--left{
+      float: left;
+      margin-right: 32px;      
+    }
+    
+    .float-block--right{
+      float: right;
+      margin-left: 32px;      
+    }
+    
+    .float-block--quarter{
+      width: 24%;
+    }
+
+    .float-block--third{
+      width: 33.333%;
+    }
+    
+    .float-block--half{
+      width: 50%;
+    }
+    
+    .button-block {
+      text-align: center;
+    }
+    
+    .button-link {
+      background-color: blue;
+      color: white;
+      border-radius: 16px;
+      display: inline-block;
+      margin: 8px;
+      padding: 16px;
+      text-decoration: none;
+      transition-duration: 0.3s;
+      transition-property: background-color, color;
+      transition-timing: ease;
+    }
+    
+    .button-link:hover,
+    .button-link:focus {
+      background-color: royalblue;
+      color: antiquewhite;
+    }
+    
+    .button-link:visited {
+      background-color: rebeccapurple;
+    }
+    
+    .button-link:visited:hover {
+      background-color: blueviolet;
+    }
+    
     .header-main {
       background-color: MediumSlateBlue;
       background-image: url('img/blurry_brick.jpg');
@@ -244,23 +305,18 @@
       <section class="container__section">
         <a class="jump-anchor" id="music"></a>
         <h2 class="container__heading">Music</h2>
-        <p>Find my releases on all your favorite streaming platforms. I live stream VCV Rack music and ambient sounds 7:30pm EST Tuesdays on <a href="https://www.youtube.com/@philbarbato">YouTube</a> and 7:30pm EST Thursdays on <a href="https://www.twitch.tv/philbarbato">Twitch</a>. I often do spontaneous streams on other days too. <a href="https://bsky.app/profile/phil.barbato.space">Follow me on BlueSky</a> to find out when.</p>
+        <img class="float-block float-block--left float-block--third" src="/Volumes/Macintosh HD/Users/philipnbarbato/Sites/philbarbato.github.io/img/music/EA_cover.jpg" alt="an image of a cropped photo of an old tractor on grass. Text on the top right of the image reads, PHIL BARBATO. Text on the bottom right reads, EXTREME AGROTOURISM">
+        <p>My new EP of jungle/dnb songs, <em>Extreme Agrotourism,</em> is on <a href="https://philbarbato.bandcamp.com/album/extreme-agrotourism">BandCamp</a> and <a href="https://www.ninaprotocol.com/releases/phil-barbato-extreme-agrotourism">Nina</a> now. It will be on all streaming platforms April 1, 2025.</p>
+        <p>You can find all my releases on your <a href="https://music.apple.com/us/artist/phil-barbato/1525103107" title="Phil Barbato on Apple Music">favorite</a> <a href="https://music.youtube.com/channel/UCZGQjaZp4ObsIVUwdv6h6mQ" title="Phil Barbato on YouTube Music">streaming</a> <a href="https://open.spotify.com/artist/0X950uv1xwp3cesC9Zdbde" title="Phil Barbato on Spotify">platforms</a>.</p>
+        <p>I live stream VCV Rack music and ambient sounds 7:30pm EST Tuesdays on <a href="https://www.youtube.com/@philbarbato">YouTube</a> and 7:30pm EST Thursdays on <a href="https://www.twitch.tv/philbarbato">Twitch</a>. I often do spontaneous streams on other days too. <a href="https://bsky.app/profile/phil.barbato.space">Follow me on BlueSky</a> to find out when.</p>
         <hr>
-        <p>
-          <a href="https://www.youtube.com/@philbarbato">YouTube</a>
-        </p>
-        <p>
-          <a href="https://www.twitch.tv/philbarbato">Twitch</a>
-        </p>
-        <p>
-          <a href="https://philbarbato.bandcamp.com">BandCamp</a>
-        </p>
-        <p>
-          <a href="https://www.ninaprotocol.com/profiles/phil.barbato">Nina</a>
-        </p>
-        <p>
-          <a href="https://soundcloud.com/philbarbato">SoundCloud</a>
-        </p>
+        <div class="button-block">          
+          <a class="button-link" href="https://www.youtube.com/@philbarbato">YouTube</a>
+          <a class="button-link" href="https://www.twitch.tv/philbarbato">Twitch</a>
+          <a class="button-link" href="https://philbarbato.bandcamp.com">BandCamp</a>
+          <a class="button-link" href="https://www.ninaprotocol.com/profiles/phil.barbato">Nina</a>
+          <a class="button-link" href="https://soundcloud.com/philbarbato">SoundCloud</a>
+        </div>
       </section>
 
       <section class="container__section">
