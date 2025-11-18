@@ -38,7 +38,7 @@
         "cross-env": "^5.2.0",
         "imagemin-mozjpeg": "^8.0.0",
         "imagemin-webpack-plugin": "^2.3.0",
-        "laravel-mix": "2.1.*",
+        "laravel-mix": "6.0.*",
         "laravel-mix-svg-sprite": "0.0.1",
         "simplecrawler": "^1.1.6"
     }
